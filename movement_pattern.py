@@ -3,11 +3,14 @@ from collections import deque
 
 class POI(Household):
 
-    def __init__(self): # time_step field?
+    def __init__(self, visit, bucket, same_day, pop_hr, pop_day): # time_step field?
         super().__init__() # 이거 할 필요가 없나?
         self.current_people = deque()
-        self.bucketed_dwell_time = {}
-        self.same_day_brands = []
+        self.visit = visit
+        self.bucketed_dwell_time = bucket
+        self.same_day_brands = same_day
+        self.pop_hr = pop_hr
+        self.pop_day = pop_day
 
     def add_person(self, person):
         self.current_people.append(person)

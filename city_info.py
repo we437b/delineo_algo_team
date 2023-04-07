@@ -34,7 +34,7 @@ grouped_location_name = df_barnsdall.groupby("location_name")
 
 # Iterate over the groups and create the dictionary
 for location_name, group in grouped_location_name:
-    selected_cols = ["placekey", "distance_from_home", 'median_dwell', "related_same_day_brand", "popularity_by_hour", "popularity_by_day"]
+    selected_cols = ['raw_visit_counts', 'bucketed_dwell_times', "related_same_day_brand", "popularity_by_hour", "popularity_by_day"]
     subset = group[selected_cols]
 
     location_name_dict[location_name] = subset.to_dict(orient="records")[0]

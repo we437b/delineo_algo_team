@@ -17,10 +17,12 @@ class Person:
     Class for each individual
     '''
 
-    def __init__(self, id, sex, age):
+    def __init__(self, id, sex, age, cbg, household):
         self.id = id
         self.sex = sex #male 0 female 1
         self.age = age
+        self.cbg = cbg
+        self.household = household
 
 class Population:
 
@@ -51,6 +53,10 @@ class Household(Population):
     ''' 
     Household class, inheriting Population since its a small population
     '''
+    def __init__(self, cbg):
+        super().__init__()
+        self.cbg = cbg
+
 
     def add_member(self, person):
         '''
@@ -69,7 +75,7 @@ if __name__=="__main__":
 
     #HELPER FUNCTIONS
 
-    def create_households(pop_data, households):
+    def create_households(pop_data, households, cbg):
         result = []
         '''
             FOR INFORMATION: family_percents = [married, opposite_sex, samesex, female_single, male_single, other]
@@ -77,28 +83,28 @@ if __name__=="__main__":
         married, opposite_sex, samesex, female_single, male_single, other = 0, 1, 2, 3, 4, 5
         
         for i in range(int(households * pop_data['family_percents'][married] * 0.01)):
-            result.append(create_married_hh(pop_data))
+            result.append(create_married_hh(pop_data, cbg))
 
         for i in range(int(households * pop_data['family_percents'][samesex] * 0.01)):
-            result.append(create_samesex_hh(pop_data))
+            result.append(create_samesex_hh(pop_data, cbg))
 
         for i in range(int(households * pop_data['family_percents'][opposite_sex] * 0.01)):
-            result.append(create_oppositesex_hh(pop_data))
+            result.append(create_oppositesex_hh(pop_data, cbg))
 
         for i in range(int(households * pop_data['family_percents'][female_single] * 0.01)):
-            result.append(create_femsingle_hh(pop_data))
+            result.append(create_femsingle_hh(pop_data, cbg))
 
         for i in range(int(households * pop_data['family_percents'][male_single] * 0.01)):
-            result.append(create_malesingle_hh(pop_data))
+            result.append(create_malesingle_hh(pop_data, cbg))
         
         for i in range(int(households * pop_data['family_percents'][other] * 0.01)):
-            result.append(create_other_hh(pop_data))
+            result.append(create_other_hh(pop_data, cbg))
 
         return result     
 
-    def create_married_hh(pop_data):
+    def create_married_hh(pop_data, cbg):
 
-        household = Household()
+        household = Household(cbg)
 
         
 
@@ -106,10 +112,10 @@ if __name__=="__main__":
         age_group = random.choices(pop_data['age_groups_married'], age_percent)[0]
         
         husband_age = random.choice(range(age_group, age_group+10))
-        household.add_member(Person(pop_data['count'], 0, husband_age))
+        household.add_member(Person(pop_data['count'], 0, husband_age, cbg, household))
         pop_data['count'] += 1
         wife_age = random.choice(range(age_group, age_group+10))
-        household.add_member(Person(pop_data['count'], 1, wife_age))
+        household.add_member(Person(pop_data['count'], 1, wife_age, cbg, household))
         pop_data['count'] += 1
 
         # if there will be children. Old couples have less percent
@@ -120,14 +126,14 @@ if __name__=="__main__":
         if child_bool:
             num_child = random.choices(pop_data['children_groups'], pop_data['children_percent'])[0]
             for i in range(num_child):
-                household.add_member(Person(pop_data['count'], random.choices([0, 1], [pop_data['male_percent'], pop_data['female_percent']])[0], random.choice(range(1, 19))))
+                household.add_member(Person(pop_data['count'], random.choices([0, 1], [pop_data['male_percent'], pop_data['female_percent']])[0], random.choice(range(1, 19)), cbg, household))
                 pop_data['count'] += 1
         
         return household
         
-    def create_samesex_hh(pop_data):
+    def create_samesex_hh(pop_data, cbg):
 
-        household = Household()
+        household = Household(cbg)
 
         age_percent = pop_data['age_percent']
         age_group = random.choices(pop_data['age_groups'], age_percent)[0]
@@ -136,16 +142,16 @@ if __name__=="__main__":
         wife_age = random.choice(range(age_group, age_group+10))
 
         gender = random.choices([0, 1], [pop_data['male_percent'], pop_data['female_percent']])[0]
-        household.add_member(Person(pop_data['count'], gender, husband_age))
+        household.add_member(Person(pop_data['count'], gender, husband_age, cbg, household))
         pop_data['count'] += 1
-        household.add_member(Person(pop_data['count'], gender, wife_age))
+        household.add_member(Person(pop_data['count'], gender, wife_age, cbg, household))
         pop_data['count'] += 1
 
         return household
 
-    def create_oppositesex_hh(pop_data):
+    def create_oppositesex_hh(pop_data, cbg):
 
-        household = Household()
+        household = Household(cbg)
 
         age_percent = pop_data['age_percent']
         age_group = random.choices(pop_data['age_groups'], age_percent)[0]
@@ -153,41 +159,41 @@ if __name__=="__main__":
         husband_age = random.choice(range(age_group, age_group+10))
         wife_age = random.choice(range(age_group, age_group+10))
 
-        household.add_member(Person(pop_data['count'], random.choices([0, 1], [pop_data['male_percent'], pop_data['female_percent']])[0], husband_age))
+        household.add_member(Person(pop_data['count'], random.choices([0, 1], [pop_data['male_percent'], pop_data['female_percent']])[0], husband_age, cbg, household))
         pop_data['count'] += 1
-        household.add_member(Person(pop_data['count'], random.choices([0, 1], [pop_data['male_percent'], pop_data['female_percent']])[0], wife_age))
+        household.add_member(Person(pop_data['count'], random.choices([0, 1], [pop_data['male_percent'], pop_data['female_percent']])[0], wife_age, cbg, household))
         pop_data['count'] += 1
 
         return household
 
-    def create_femsingle_hh(pop_data):
-        household = Household()
+    def create_femsingle_hh(pop_data, cbg):
+        household = Household(cbg)
 
         age_percent = pop_data['age_percent']
         age_group = random.choices(pop_data['age_groups'], age_percent)[0]
         
         age = random.choice(range(age_group, age_group+10))
 
-        household.add_member(Person(pop_data['count'], 1, age))
+        household.add_member(Person(pop_data['count'], 1, age, cbg, household))
         pop_data['count'] += 1
 
         return household
 
-    def create_malesingle_hh(pop_data):
-        household = Household()
+    def create_malesingle_hh(pop_data, cbg):
+        household = Household(cbg)
 
         age_percent = pop_data['age_percent']
         age_group = random.choices(pop_data['age_groups'], age_percent)[0]
         
         age = random.choice(range(age_group, age_group+10))
 
-        household.add_member(Person(pop_data['count'], 0, age))
+        household.add_member(Person(pop_data['count'], 0, age, cbg, household))
         pop_data['count'] += 1
 
         return household
 
-    def create_other_hh(pop_data):
-        household = Household()
+    def create_other_hh(pop_data, cbg):
+        household = Household(cbg)
 
         age_percent = pop_data['age_percent']
         age_group = random.choices(pop_data['age_groups'], age_percent)[0]
@@ -197,7 +203,7 @@ if __name__=="__main__":
         
         for i in range(size_group):
             age = random.choice(range(age_group, age_group+10))
-            household.add_member(Person(pop_data['count'], random.choices([0, 1], [pop_data['male_percent'], pop_data['female_percent']])[0], age))
+            household.add_member(Person(pop_data['count'], random.choices([0, 1], [pop_data['male_percent'], pop_data['female_percent']])[0], age, cbg, household))
             pop_data['count'] += 1
         
         return household
@@ -239,10 +245,12 @@ if __name__=="__main__":
     cluster_df = pd.read_csv('clusters.csv')
     clusters = [str(i) for i in list(cluster_df['cbgs'])]
 
-    # get number of households
-    population, household = create_pop_from_cluster(clusters, census_df)
+    household_list = []
 
-    household_list = create_households(pop_data, household)
+    # get number of households
+    for cbg in clusters:
+        _, household = create_pop_from_cluster([cbg], census_df)
+        household_list.append(create_households(pop_data, household, cbg))
 
     # Dump household list data into households.yaml file
     with open('households.yaml', mode="wt", encoding="utf-8") as outstream:

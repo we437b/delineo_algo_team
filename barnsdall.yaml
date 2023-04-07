@@ -1,7 +1,5 @@
 American Heritage Bank:
-  distance_from_home: 2351.0
-  median_dwell: 6.0
-  placekey: 229-222@5r8-drv-7dv
+  bucketed_dwell_times: '{"<5":5,"5-10":23,"11-20":2,"21-60":4,"61-120":4,"121-240":1,">240":0}'
   popularity_by_day:
     Friday: 8
     Monday: 4
@@ -35,14 +33,13 @@ American Heritage Bank:
   - 0
   - 0
   - 0
+  raw_visit_counts: 39
   related_same_day_brand:
     Circle K: 50
     Dollar General: 48
     Phillips 66: 100
 Andy's Hamburgers:
-  distance_from_home: 15312.0
-  median_dwell: 43.5
-  placekey: zzw-222@5r8-drv-8y9
+  bucketed_dwell_times: '{"<5":9,"5-10":64,"11-20":30,"21-60":58,"61-120":36,"121-240":44,">240":47}'
   popularity_by_day:
     Friday: 44
     Monday: 46
@@ -76,13 +73,12 @@ Andy's Hamburgers:
   - 19
   - 10
   - 9
+  raw_visit_counts: 288
   related_same_day_brand:
     Dollar General: 9
     Ford Motor Company: 12
 Ascension Health:
-  distance_from_home: 11763.0
-  median_dwell: 20.0
-  placekey: 223-223@5r8-drv-8vz
+  bucketed_dwell_times: '{"<5":0,"5-10":6,"11-20":8,"21-60":4,"61-120":3,"121-240":2,">240":2}'
   popularity_by_day:
     Friday: 9
     Monday: 4
@@ -116,12 +112,11 @@ Ascension Health:
   - 2
   - 1
   - 1
+  raw_visit_counts: 25
   related_same_day_brand:
     McDonald's: 96
 Assembly of God Church:
-  distance_from_home: 2822.0
-  median_dwell: 61.0
-  placekey: 222-222@5r8-drv-789
+  bucketed_dwell_times: '{"<5":6,"5-10":25,"11-20":14,"21-60":44,"61-120":49,"121-240":29,">240":12}'
   popularity_by_day:
     Friday: 18
     Monday: 11
@@ -155,14 +150,13 @@ Assembly of God Church:
   - 15
   - 14
   - 9
+  raw_visit_counts: 179
   related_same_day_brand:
     Burkes Outlet: 20
     Dollar General: 27
     Walmart: 7
 B Square Hair:
-  distance_from_home: .nan
-  median_dwell: 63.0
-  placekey: zzw-223@5r8-drv-8jv
+  bucketed_dwell_times: '{"<5":0,"5-10":0,"11-20":0,"21-60":0,"61-120":1,"121-240":0,">240":0}'
   popularity_by_day:
     Friday: 0
     Monday: 0
@@ -196,11 +190,10 @@ B Square Hair:
   - 0
   - 0
   - 0
+  raw_visit_counts: 1
   related_same_day_brand: {}
 Baptist Church:
-  distance_from_home: 1660.0
-  median_dwell: 51.0
-  placekey: zzy-222@5r8-dq8-8sq
+  bucketed_dwell_times: '{"<5":1,"5-10":5,"11-20":3,"21-60":23,"61-120":4,"121-240":6,">240":2}'
   popularity_by_day:
     Friday: 0
     Monday: 0
@@ -234,12 +227,11 @@ Baptist Church:
   - 0
   - 0
   - 0
+  raw_visit_counts: 44
   related_same_day_brand:
     Walmart: 93
 Barnsdall Building Blocks:
-  distance_from_home: 35828.0
-  median_dwell: 38.0
-  placekey: zzy-223@5r8-drt-9cq
+  bucketed_dwell_times: '{"<5":0,"5-10":1,"11-20":0,"21-60":4,"61-120":4,"121-240":0,">240":0}'
   popularity_by_day:
     Friday: 0
     Monday: 3
@@ -273,11 +265,10 @@ Barnsdall Building Blocks:
   - 0
   - 0
   - 0
+  raw_visit_counts: 9
   related_same_day_brand: {}
 Barnsdall Church Of The Nazarene:
-  distance_from_home: 21492.0
-  median_dwell: 66.0
-  placekey: zzw-222@5r8-drt-dgk
+  bucketed_dwell_times: '{"<5":0,"5-10":1,"11-20":3,"21-60":5,"61-120":4,"121-240":4,">240":1}'
   popularity_by_day:
     Friday: 1
     Monday: 0
@@ -311,11 +302,10 @@ Barnsdall Church Of The Nazarene:
   - 2
   - 1
   - 0
+  raw_visit_counts: 18
   related_same_day_brand: {}
 Barnsdall City Cemetery:
-  distance_from_home: .nan
-  median_dwell: 161.0
-  placekey: zzy-22c@5r8-drv-8vz
+  bucketed_dwell_times: '{"<5":0,"5-10":0,"11-20":0,"21-60":0,"61-120":0,"121-240":1,">240":0}'
   popularity_by_day:
     Friday: 1
     Monday: 0
@@ -349,11 +339,10 @@ Barnsdall City Cemetery:
   - 0
   - 0
   - 0
+  raw_visit_counts: 1
   related_same_day_brand: {}
 Barnsdall Es:
-  distance_from_home: 25683.0
-  median_dwell: 63.0
-  placekey: zzw-222@5r8-drt-ch5
+  bucketed_dwell_times: '{"<5":6,"5-10":48,"11-20":31,"21-60":54,"61-120":56,"121-240":39,">240":61}'
   popularity_by_day:
     Friday: 10
     Monday: 67
@@ -387,15 +376,14 @@ Barnsdall Es:
   - 5
   - 4
   - 1
+  raw_visit_counts: 295
   related_same_day_brand:
     OnCue: 9
     QuikTrip: 49
     Sonic: 11
     T.J. Maxx: 8
 Barnsdall Flower:
-  distance_from_home: 2907.0
-  median_dwell: 40.0
-  placekey: 222-222@5r8-drv-8n5
+  bucketed_dwell_times: '{"<5":3,"5-10":48,"11-20":16,"21-60":35,"61-120":15,"121-240":20,">240":22}'
   popularity_by_day:
     Friday: 23
     Monday: 17
@@ -429,6 +417,7 @@ Barnsdall Flower:
   - 13
   - 10
   - 8
+  raw_visit_counts: 159
   related_same_day_brand:
     Atwoods Ranch & Home: 100
     Dollar General: 23
@@ -437,9 +426,7 @@ Barnsdall Flower:
     Olive Garden: 16
     Sinclair Oil: 17
 Barnsdall Hs:
-  distance_from_home: 5004.0
-  median_dwell: 75.5
-  placekey: zzw-222@5r8-drt-b8v
+  bucketed_dwell_times: '{"<5":1,"5-10":20,"11-20":22,"21-60":31,"61-120":2,"121-240":68,">240":4}'
   popularity_by_day:
     Friday: 7
     Monday: 28
@@ -473,14 +460,13 @@ Barnsdall Hs:
   - 4
   - 3
   - 1
+  raw_visit_counts: 148
   related_same_day_brand:
     Braum's Ice Cream and Dairy Stores: 12
     Dollar General: 13
     McAlister's Deli: 9
 Barnsdall Jhs:
-  distance_from_home: 5004.0
-  median_dwell: 133.0
-  placekey: zzy-223@5r8-drt-b8v
+  bucketed_dwell_times: '{"<5":6,"5-10":30,"11-20":8,"21-60":46,"61-120":42,"121-240":53,">240":89}'
   popularity_by_day:
     Friday: 12
     Monday: 53
@@ -514,14 +500,13 @@ Barnsdall Jhs:
   - 4
   - 4
   - 7
+  raw_visit_counts: 274
   related_same_day_brand:
     Braum's Ice Cream and Dairy Stores: 6
     Dollar General: 7
     T.J. Maxx: 7
 Barnsdall Main Street Oil Well:
-  distance_from_home: 21544.0
-  median_dwell: 103.0
-  placekey: zzy-222@5r8-drt-dn5
+  bucketed_dwell_times: '{"<5":1,"5-10":22,"11-20":16,"21-60":41,"61-120":30,"121-240":23,">240":74}'
   popularity_by_day:
     Friday: 26
     Monday: 28
@@ -555,13 +540,12 @@ Barnsdall Main Street Oil Well:
   - 55
   - 57
   - 52
+  raw_visit_counts: 207
   related_same_day_brand:
     Dollar General: 23
     T.J. Maxx: 16
 Barnsdall Market:
-  distance_from_home: 8672.0
-  median_dwell: 18.5
-  placekey: zzw-222@5r8-drv-8qf
+  bucketed_dwell_times: '{"<5":2,"5-10":8,"11-20":4,"21-60":6,"61-120":3,"121-240":3,">240":2}'
   popularity_by_day:
     Friday: 2
     Monday: 6
@@ -595,11 +579,10 @@ Barnsdall Market:
   - 2
   - 1
   - 1
+  raw_visit_counts: 28
   related_same_day_brand: {}
 Barnsdall Nursing Home:
-  distance_from_home: 7446.0
-  median_dwell: 64.5
-  placekey: 222-222@5r8-drv-9fz
+  bucketed_dwell_times: '{"<5":1,"5-10":19,"11-20":13,"21-60":34,"61-120":20,"121-240":11,">240":40}'
   popularity_by_day:
     Friday: 26
     Monday: 11
@@ -633,15 +616,14 @@ Barnsdall Nursing Home:
   - 30
   - 32
   - 33
+  raw_visit_counts: 138
   related_same_day_brand:
     CrossFit: 16
     Fresenius Kidney Care: 12
     Sinclair Oil: 25
     Starbucks: 15
 Barnsdall Police Department Barnsdall Oklahoma:
-  distance_from_home: 19402.0
-  median_dwell: 35.5
-  placekey: zzy-223@5r8-drv-8y9
+  bucketed_dwell_times: '{"<5":0,"5-10":16,"11-20":8,"21-60":19,"61-120":14,"121-240":9,">240":8}'
   popularity_by_day:
     Friday: 16
     Monday: 10
@@ -675,12 +657,11 @@ Barnsdall Police Department Barnsdall Oklahoma:
   - 10
   - 6
   - 7
+  raw_visit_counts: 74
   related_same_day_brand:
     Ford Motor Company: 100
 Barnsdall Rural Fire Fighters Association:
-  distance_from_home: 3527.0
-  median_dwell: 301.0
-  placekey: 222-222@5r8-drt-kcq
+  bucketed_dwell_times: '{"<5":0,"5-10":5,"11-20":3,"21-60":2,"61-120":5,"121-240":3,">240":20}'
   popularity_by_day:
     Friday: 17
     Monday: 2
@@ -714,12 +695,11 @@ Barnsdall Rural Fire Fighters Association:
   - 11
   - 9
   - 10
+  raw_visit_counts: 38
   related_same_day_brand:
     Reasor's: 100
 Barnsdall Tag Agency:
-  distance_from_home: .nan
-  median_dwell: 37.0
-  placekey: zzw-225@5r8-drv-8vz
+  bucketed_dwell_times: '{"<5":0,"5-10":0,"11-20":0,"21-60":2,"61-120":0,"121-240":1,">240":0}'
   popularity_by_day:
     Friday: 0
     Monday: 1
@@ -753,11 +733,10 @@ Barnsdall Tag Agency:
   - 0
   - 0
   - 1
+  raw_visit_counts: 3
   related_same_day_brand: {}
 Dollar General:
-  distance_from_home: 13429.0
-  median_dwell: 9.0
-  placekey: 222-222@5r8-drv-3dv
+  bucketed_dwell_times: '{"<5":22,"5-10":161,"11-20":57,"21-60":34,"61-120":1,"121-240":0,">240":1}'
   popularity_by_day:
     Friday: 51
     Monday: 36
@@ -791,6 +770,7 @@ Dollar General:
   - 9
   - 1
   - 1
+  raw_visit_counts: 276
   related_same_day_brand:
     Hobby Lobby Stores: 12
     Lincare: 9
@@ -798,9 +778,7 @@ Dollar General:
     ULTA Beauty: 8
     United States Postal Service (USPS): 16
 Free Will Baptist Church:
-  distance_from_home: 11198.0
-  median_dwell: 64.0
-  placekey: zzw-222@5r8-drv-99f
+  bucketed_dwell_times: '{"<5":1,"5-10":15,"11-20":11,"21-60":24,"61-120":23,"121-240":22,">240":17}'
   popularity_by_day:
     Friday: 15
     Monday: 7
@@ -834,13 +812,12 @@ Free Will Baptist Church:
   - 11
   - 7
   - 9
+  raw_visit_counts: 113
   related_same_day_brand:
     O'Reilly Auto Parts: 33
     Sinclair Oil: 8
 Garretts Country Store & Grill:
-  distance_from_home: 20723.0
-  median_dwell: 32.0
-  placekey: zzw-222@5r8-drt-m49
+  bucketed_dwell_times: '{"<5":4,"5-10":25,"11-20":25,"21-60":82,"61-120":12,"121-240":4,">240":7}'
   popularity_by_day:
     Friday: 29
     Monday: 16
@@ -874,15 +851,14 @@ Garretts Country Store & Grill:
   - 8
   - 7
   - 8
+  raw_visit_counts: 159
   related_same_day_brand:
     Ascension Health: 25
     Family Dollar Stores: 12
     Hard Rock Hotel: 14
     Walmart: 43
 Kelley Insurance Agency:
-  distance_from_home: .nan
-  median_dwell: 35.0
-  placekey: zzy-227@5r8-drv-8vz
+  bucketed_dwell_times: '{"<5":0,"5-10":1,"11-20":0,"21-60":3,"61-120":0,"121-240":1,">240":0}'
   popularity_by_day:
     Friday: 1
     Monday: 0
@@ -916,11 +892,10 @@ Kelley Insurance Agency:
   - 0
   - 0
   - 0
+  raw_visit_counts: 5
   related_same_day_brand: {}
 Kelley's Trucks and More:
-  distance_from_home: 1546.0
-  median_dwell: 21.0
-  placekey: zzw-222@5r8-drt-kxq
+  bucketed_dwell_times: '{"<5":0,"5-10":7,"11-20":2,"21-60":10,"61-120":0,"121-240":0,">240":0}'
   popularity_by_day:
     Friday: 4
     Monday: 1
@@ -954,13 +929,12 @@ Kelley's Trucks and More:
   - 0
   - 0
   - 1
+  raw_visit_counts: 19
   related_same_day_brand:
     Hard Rock Hotel: 100
     Kawasaki Motors: 100
 Lighthouse Church:
-  distance_from_home: 23373.0
-  median_dwell: 109.5
-  placekey: zzy-222@5r8-dsf-v75
+  bucketed_dwell_times: '{"<5":3,"5-10":16,"11-20":4,"21-60":7,"61-120":23,"121-240":21,">240":26}'
   popularity_by_day:
     Friday: 10
     Monday: 28
@@ -994,14 +968,13 @@ Lighthouse Church:
   - 4
   - 0
   - 0
+  raw_visit_counts: 100
   related_same_day_brand:
     Braum's Ice Cream and Dairy Stores: 50
     Chicken Express: 50
     Panda Express: 33
 Osage Nation Head Start Barnsdall:
-  distance_from_home: 17078.0
-  median_dwell: 16.0
-  placekey: zzy-222@5r8-drt-9cq
+  bucketed_dwell_times: '{"<5":0,"5-10":1,"11-20":7,"21-60":2,"61-120":1,"121-240":0,">240":0}'
   popularity_by_day:
     Friday: 1
     Monday: 5
@@ -1035,11 +1008,10 @@ Osage Nation Head Start Barnsdall:
   - 0
   - 0
   - 0
+  raw_visit_counts: 11
   related_same_day_brand: {}
 Reece Cemetery:
-  distance_from_home: .nan
-  median_dwell: 468.0
-  placekey: zzy-222@5r8-drq-xnq
+  bucketed_dwell_times: '{"<5":0,"5-10":0,"11-20":0,"21-60":0,"61-120":0,"121-240":0,">240":1}'
   popularity_by_day:
     Friday: 0
     Monday: 0
@@ -1073,11 +1045,10 @@ Reece Cemetery:
   - 0
   - 0
   - 0
+  raw_visit_counts: 1
   related_same_day_brand: {}
 Robinowitz Oil:
-  distance_from_home: 9512.0
-  median_dwell: 46.5
-  placekey: zzy-222@5r8-drv-8vz
+  bucketed_dwell_times: '{"<5":0,"5-10":6,"11-20":5,"21-60":6,"61-120":1,"121-240":1,">240":13}'
   popularity_by_day:
     Friday: 0
     Monday: 5
@@ -1111,12 +1082,11 @@ Robinowitz Oil:
   - 1
   - 0
   - 0
+  raw_visit_counts: 32
   related_same_day_brand:
     Carl's Jr.: 50
 Siggins Memorial Clinic:
-  distance_from_home: 15168.0
-  median_dwell: 52.5
-  placekey: 223-224@5r8-drv-8vz
+  bucketed_dwell_times: '{"<5":0,"5-10":3,"11-20":1,"21-60":2,"61-120":1,"121-240":3,">240":2}'
   popularity_by_day:
     Friday: 2
     Monday: 2
@@ -1150,11 +1120,10 @@ Siggins Memorial Clinic:
   - 5
   - 5
   - 5
+  raw_visit_counts: 12
   related_same_day_brand: {}
 Sinclair Oil:
-  distance_from_home: 29736.0
-  median_dwell: 7.0
-  placekey: zzy-222@5r8-drt-kcq
+  bucketed_dwell_times: '{"<5":58,"5-10":332,"11-20":46,"21-60":47,"61-120":14,"121-240":13,">240":16}'
   popularity_by_day:
     Friday: 97
     Monday: 64
@@ -1188,6 +1157,7 @@ Sinclair Oil:
   - 26
   - 13
   - 11
+  raw_visit_counts: 526
   related_same_day_brand:
     Carl's Jr.: 11
     Casey's General Stores: 16
@@ -1201,9 +1171,7 @@ Sinclair Oil:
     Walmart: 5
     Whataburger: 6
 Stumpff Chapel:
-  distance_from_home: 14231.0
-  median_dwell: 10.0
-  placekey: zzw-222@5r8-drt-dsq
+  bucketed_dwell_times: '{"<5":4,"5-10":9,"11-20":2,"21-60":4,"61-120":0,"121-240":4,">240":2}'
   popularity_by_day:
     Friday: 2
     Monday: 1
@@ -1237,12 +1205,11 @@ Stumpff Chapel:
   - 1
   - 2
   - 2
+  raw_visit_counts: 25
   related_same_day_brand:
     Walmart: 59
 Sweet Scripture:
-  distance_from_home: 14218.0
-  median_dwell: 40.5
-  placekey: zzy-222@5r8-drv-92k
+  bucketed_dwell_times: '{"<5":1,"5-10":11,"11-20":6,"21-60":16,"61-120":5,"121-240":11,">240":2}'
   popularity_by_day:
     Friday: 16
     Monday: 2
@@ -1276,12 +1243,11 @@ Sweet Scripture:
   - 15
   - 12
   - 5
+  raw_visit_counts: 52
   related_same_day_brand:
     Ascension Health: 50
 Tone Ur Hyde:
-  distance_from_home: 11254.0
-  median_dwell: 19.0
-  placekey: zzw-222@5r8-drv-8vz
+  bucketed_dwell_times: '{"<5":4,"5-10":22,"11-20":10,"21-60":16,"61-120":6,"121-240":9,">240":2}'
   popularity_by_day:
     Friday: 24
     Monday: 5
@@ -1315,11 +1281,10 @@ Tone Ur Hyde:
   - 14
   - 14
   - 8
+  raw_visit_counts: 69
   related_same_day_brand: {}
 Toon Hardware and Lumber:
-  distance_from_home: 3648.0
-  median_dwell: 21.0
-  placekey: zzw-222@5r8-drv-8jv
+  bucketed_dwell_times: '{"<5":5,"5-10":20,"11-20":9,"21-60":14,"61-120":21,"121-240":1,">240":1}'
   popularity_by_day:
     Friday: 12
     Monday: 10
@@ -1353,12 +1318,11 @@ Toon Hardware and Lumber:
   - 1
   - 0
   - 0
+  raw_visit_counts: 71
   related_same_day_brand:
     Atwoods Ranch & Home: 50
 United Methodist Church:
-  distance_from_home: 19217.0
-  median_dwell: 19.0
-  placekey: zzw-223@5r8-drv-8qf
+  bucketed_dwell_times: '{"<5":4,"5-10":19,"11-20":8,"21-60":8,"61-120":6,"121-240":1,">240":9}'
   popularity_by_day:
     Friday: 6
     Monday: 11
@@ -1392,12 +1356,11 @@ United Methodist Church:
   - 10
   - 10
   - 8
+  raw_visit_counts: 55
   related_same_day_brand:
     Mazzio's Italian Eatery: 100
 United States Postal Service (USPS):
-  distance_from_home: 4778.0
-  median_dwell: 8.0
-  placekey: zzw-222@5r8-drv-92k
+  bucketed_dwell_times: '{"<5":3,"5-10":19,"11-20":5,"21-60":4,"61-120":1,"121-240":0,">240":0}'
   popularity_by_day:
     Friday: 11
     Monday: 2
@@ -1431,11 +1394,10 @@ United States Postal Service (USPS):
   - 0
   - 0
   - 0
+  raw_visit_counts: 32
   related_same_day_brand: {}
 Uptown Pizza:
-  distance_from_home: 10305.0
-  median_dwell: 20.0
-  placekey: zzy-222@5r8-drt-b49
+  bucketed_dwell_times: '{"<5":11,"5-10":47,"11-20":16,"21-60":38,"61-120":14,"121-240":10,">240":7}'
   popularity_by_day:
     Friday: 25
     Monday: 7
@@ -1469,5 +1431,6 @@ Uptown Pizza:
   - 1
   - 4
   - 3
+  raw_visit_counts: 143
   related_same_day_brand:
     United Super Markets Oklahoma: 10
