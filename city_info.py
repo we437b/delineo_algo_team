@@ -40,7 +40,7 @@ for location_name, group in grouped_location_name:
     location_name_dict[location_name] = subset.to_dict(orient="records")[0]
 
     #parse location dictionary from json format of some data
-    for target in ['related_same_day_brand', 'popularity_by_hour', 'popularity_by_day']:
+    for target in ['bucketed_dwell_times', 'related_same_day_brand', 'popularity_by_hour', 'popularity_by_day']:
         location_name_dict[location_name][target] = json.loads(location_name_dict[location_name][target])
     
 print(location_name_dict)

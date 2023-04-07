@@ -2,12 +2,15 @@ from collections import deque
 import numpy as np
 import pandas as pd
 import yaml
+import json
 from household import Household, Person, Population
 
 
 class POI():
 
     def __init__(self, name, visit, bucket, same_day, pop_hr, pop_day): # time_step field?
+
+        bucket = json.loads(bucket)
         self.name = name
         self.current_people = deque()
         self.visit = visit
@@ -16,8 +19,11 @@ class POI():
         self.pop_hr = pop_hr
         self.pop_day = pop_day
 
-    def add_person(self, person):
-        self.current_people.append(person)
+    def add_person(self): #person):
+        keys = self.bucketed_dwell_time
+
+        print(type(keys))
+        # self.current_people.append(person)
 
     def send_person(self, target_poi):
         if not self.current_people:
@@ -52,6 +58,7 @@ def simulation(settings, city_info):
         poi_list.append(cur_poi)
 
     #poi all set
+    poi_list[0].add_person()
 
 if __name__=="__main__":
     print("main function loading")
