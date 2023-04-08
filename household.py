@@ -67,6 +67,8 @@ class Household(Population):
         self.population.append(person)
 
     #TODO: Add more functions for leaving/coming back, etc if needed
+    #jiwoo: an idea would be to extend from the population info to create
+    #more realistic dataset (combination) of population in a household
     
 '''
     if ran(not imported), yields household assignment values
@@ -106,8 +108,7 @@ if __name__=="__main__":
 
         household = Household(cbg)
 
-        
-
+    
         age_percent = pop_data['age_percent_married']
         age_group = random.choices(pop_data['age_groups_married'], age_percent)[0]
         
@@ -119,6 +120,7 @@ if __name__=="__main__":
         pop_data['count'] += 1
 
         # if there will be children. Old couples have less percent
+        #jiwoo: are the numbers 0.1 and 0.05 statistically proven, or are these arbitrary numbers so far?
         children_percent = pop_data['children_true_percent']+0.1 if (age_group < 45 and age_group > 15) else 0.05
 
         child_bool = random.choices([True, False], [children_percent, 100-children_percent])[0]
@@ -130,13 +132,16 @@ if __name__=="__main__":
                 pop_data['count'] += 1
         
         return household
+
+    #jiwoo: for functions that create household with diff combinations of sex, consider
+    #creating a separate helper function for the overlapping lines of code for increased efficiency
         
     def create_samesex_hh(pop_data, cbg):
 
         household = Household(cbg)
 
         age_percent = pop_data['age_percent']
-        age_group = random.choices(pop_data['age_groups'], age_percent)[0]
+        age_group = random.choices(pop_data['age_groups'], age_percent)[0] #i'm talking about these lines
         
         husband_age = random.choice(range(age_group, age_group+10))
         wife_age = random.choice(range(age_group, age_group+10))
