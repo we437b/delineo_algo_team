@@ -54,65 +54,38 @@ class POI():
 
         #self.current_people.append(person)
 
-    def send_person(self, person, poi_dict):
-        #print(self.same_day_brands)
-        instate_sum = 0
-        next_poi_count = 1 #bc outstate is already a part of next poi list
-        outstate_sum = 0
-        outstate_count = 0
-        home_constant = 2
-        next_poi_list = []
+    def _calculate_next_poi_weights(self, poi_dict):
+        instate_sum = sum(self.same_day_brands[brand_name] for brand_name in self.same_day_brands.keys() if brand_name in poi_dict.keys())
+        outstate_sum = sum(self.same_day_brands[brand_name] for brand_name in self.same_day_brands.keys() if brand_name not in poi_dict.keys())
+        outstate_count = sum(1 for brand_name in self.same_day_brands.keys() if brand_name not in poi_dict.keys())
 
-        for brand_name in self.same_day_brands.keys():
-            if brand_name in poi_dict.keys():
-                instate_sum += self.same_day_brands[brand_name]
-                next_poi_count += 1
-                next_poi_list.append(brand_name)
-            else:
-                outstate_sum += self.same_day_brands[brand_name]
-                outstate_count += 1
-
-        outstate_avg = outstate_sum / outstate_count 
+        next_poi_count = len(poi_dict) + 1
+        outstate_avg = outstate_sum / outstate_count
         next_poi_sum = outstate_avg + instate_sum
+        home_constant = 2
         home_weight = next_poi_sum / next_poi_count
         home_weight_modified = home_weight / home_constant
-        
 
-        next_poi_list.append("out of state")
-        next_poi_list.append("home")
+        return instate_sum, outstate_avg, home_weight_modified, next_poi_sum
 
-        #next_poi_list = ['Dollar General', 'out of state', 'home']
-        #final total sum
-        next_poi_sum += home_weight_modified
-        next_poi_weights = []
-        for brand_name in next_poi_list:
-            if brand_name in poi_dict.keys():
-                next_poi_weights.append(self.same_day_brands[brand_name] / next_poi_sum)
-            else:
-                continue
+    def send_person(self, person, poi_dict):
+        instate_sum, outstate_avg, home_weight_modified, next_poi_sum = self._calculate_next_poi_weights(poi_dict)
         
-        next_poi_weights.append(outstate_avg / next_poi_sum)
-        next_poi_weights.append(home_weight_modified / next_poi_sum) 
-       
+        next_poi_list = [brand_name for brand_name in self.same_day_brands.keys() if brand_name in poi_dict.keys()]
+        next_poi_list.extend(["out of state", "home"])
+
+        next_poi_weights = [self.same_day_brands[brand_name] / next_poi_sum for brand_name in next_poi_list if brand_name in poi_dict.keys()]
+        next_poi_weights.extend([outstate_avg / next_poi_sum, home_weight_modified / next_poi_sum])
 
         next_poi = random.choices(next_poi_list, weights=next_poi_weights)[0]
 
-        # print(instate_sum)
-        # print(outstate_count)
-        # print(outstate_sum)
-        # print(next_poi_count)
-        # print(next_poi_sum)
-        # print(home_weight_modified)
         print(next_poi_list)
         print(next_poi_weights)
         print(next_poi)
-        
+
         return [person, next_poi]
-        
 
-    #def move_time_step():
 
-    #def toString? 
 
 def timestep(poi_dict):
     '''
