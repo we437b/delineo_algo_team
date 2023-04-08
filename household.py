@@ -53,15 +53,17 @@ class Household(Population):
     ''' 
     Household class, inheriting Population since its a small population
     '''
-    def __init__(self, cbg):
-        super().__init__()
+
+    def __init__(self, cbg, population=[], total_count=0):
+        super().__init()
         self.cbg = cbg
+        self.population = population
+        self.total_count = total_count
 
 
     def add_member(self, person):
         '''
         Adds member to the household, with sanity rules applied
-
         @param person = person to be added to household
         '''
         self.population.append(person)
@@ -119,7 +121,7 @@ if __name__=="__main__":
         household.add_member(Person(pop_data['count'], 1, wife_age, cbg, household))
         pop_data['count'] += 1
 
-        # if there will be children. Old couples have less percent
+        # if there will be children. Old couples have less percent TODO get percents
         #jiwoo: are the numbers 0.1 and 0.05 statistically proven, or are these arbitrary numbers so far?
         children_percent = pop_data['children_true_percent']+0.1 if (age_group < 45 and age_group > 15) else 0.05
 
