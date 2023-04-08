@@ -55,36 +55,75 @@ class POI():
         #self.current_people.append(person)
 
     def _calculate_next_poi_weights(self, poi_dict):
-        instate_sum = sum(self.same_day_brands[brand_name] for brand_name in self.same_day_brands.keys() if brand_name in poi_dict.keys())
+        #Ex) If current POI is "American Heritage Bank", 
+        #Same_day_brands is a dictionary that has Circle K: 50, Dollar General: 48, Phillips 66: 100
+        #The brands can be either in state(within Barnsdall) or out state(outside Barnsdall)
+        #If brand name is in poi_dict.keys(), it's instate, if not, it's outstate
+        #In this example, only Dollar General is instate and the two others are out state
+
+        #We will now have three possibilities for the next_poi, which is either Dollar General, out of state, or home
+        #Out of state is considered one POI from now on as a whole
+
+        #First, we will deal with outstate brands
+        #outstate_sum is the sum of the weights of all outstate brands Ex) 50 + 100 = 150
+        #outstate_count is the count of how many outstate brands exist Ex) 2 (Circle K and Phillips 66)
+        #outstate_avg is the average of all the outstate weights Ex) 150 / 2 = 75
         outstate_sum = sum(self.same_day_brands[brand_name] for brand_name in self.same_day_brands.keys() if brand_name not in poi_dict.keys())
         outstate_count = sum(1 for brand_name in self.same_day_brands.keys() if brand_name not in poi_dict.keys())
-
-        next_poi_count = len(poi_dict) + 1
         outstate_avg = outstate_sum / outstate_count
+
+        #Now, we will consider instate brands
+        #instate_sum is the sum of the weights of all instate brands Ex) 48
+        #instate_count is the count of how many instate brands exist Ex) 1 (Dollar General)
+        instate_sum = sum(self.same_day_brands[brand_name] for brand_name in self.same_day_brands.keys() if brand_name in poi_dict.keys())
+        instate_count = sum(1 for brand_name in self.same_day_brands.keys() if brand_name in poi_dict.keys())
+
+        #next_poi_count is the total of instant_count and the outstate POI Ex) 2 (Dollar General and out state)
+        next_poi_count = instate_count + 1
+
+        #next_poi_sum is the sum of instate_sum and the outstate avg Ex) 48 + 75 = 123
         next_poi_sum = outstate_avg + instate_sum
-        home_constant = 2
+
+        #home_weight is the weight we will assign to the home POI where a person goes back home after leaving this POI
+        #Ex) 123 / 2 = 61.5
         home_weight = next_poi_sum / next_poi_count
+
+        #constant we used for a more realistic home weight 
+        home_constant = 2
+        #Modified home weight Ex) 61.5 / 2 = 30.75
         home_weight_modified = home_weight / home_constant
+
+        #Total poi sum weight should also include the weight of the home POI Ex) 123 + 30.75 = 153.75
+        next_poi_sum += home_weight_modified
 
         return instate_sum, outstate_avg, home_weight_modified, next_poi_sum
 
     def send_person(self, person, poi_dict):
         instate_sum, outstate_avg, home_weight_modified, next_poi_sum = self._calculate_next_poi_weights(poi_dict)
         
+        # Append in-state POI names to next_poi_list
         next_poi_list = [brand_name for brand_name in self.same_day_brands.keys() if brand_name in poi_dict.keys()]
+
+        # Considers all the POIs that are outside of the scope as “out of state” and append to next_poi_list.
+        # (Even if there are multiple out-of-state POIs, we consider them as one POI)
         next_poi_list.extend(["out of state", "home"])
 
+        # Calculate the weights of each of the POI (including “out of state” and “home”)
+        # These weights tell how likely a person would go to that POI as their next destination
+        # (higher the weight, the more likely a person would choose to go to that POI)
         next_poi_weights = [self.same_day_brands[brand_name] / next_poi_sum for brand_name in next_poi_list if brand_name in poi_dict.keys()]
+        # Also calculate the weights of “out of state” and “home”
         next_poi_weights.extend([outstate_avg / next_poi_sum, home_weight_modified / next_poi_sum])
 
+        # Randomly gets the next possible destination based on the weights we calculated.
         next_poi = random.choices(next_poi_list, weights=next_poi_weights)[0]
 
         print(next_poi_list)
         print(next_poi_weights)
         print(next_poi)
 
+        # Returns the person who will leave this POI and the next destination(POI)
         return [person, next_poi]
-
 
 
 def timestep(poi_dict):
