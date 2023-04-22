@@ -206,16 +206,67 @@ def simulation(settings, city_info, hh_info):
 
         # Print info!
         old_out = sys.stdout
-        with open("result_hh.txt", "a+") as hhstream, \
-                open("result_poi.txt", "a+") as poistream:
 
-            hhstream.write(f"timestep_{time}\n")
+        class PersonEncoder(json.JSONEncoder):
+            def default(self, obj):
+                if isinstance(obj, Person):
+                    return {
+                        'id': obj.id,
+                        'sex': obj.sex,
+                        'age': obj.age,
+                        'cbg': obj.cbg,
+                        'household': obj.household,
+                    }
+                return tuple(obj)
+            
+        class HouseholdEncoder(json.JSONEncoder):
+            def default(self, obj):
+                if isinstance(obj, Household):
+                    return {
+                        'cbg': obj.cbg,
+                        'population': obj.population,
+                        'total_count': obj.total_count,
+                        'members': tuple([self.default(p) for p in obj.population])
+                    }
+                elif isinstance(obj, Person):
+                    return {
+                        'id': obj.id,
+                        'sex': obj.sex,
+                        'age': obj.age,
+                        'cbg': obj.cbg,
+                        'household': obj.household.cbg
+                    }
+                return super().default(obj)
+
+        class POIEncoder(json.JSONEncoder):
+            def default(self, obj):
+                if isinstance(obj, POI):
+                    return {
+                        'current_people': tuple([PersonEncoder().default(p) for p in obj.current_people]),
+                    }
+                elif isinstance(obj, Person):
+                    return HouseholdEncoder().default(obj)
+                elif isinstance(obj, Household):
+                    return HouseholdEncoder().default(obj)
+                return super().default(obj)
+
+        with open("result_hh.json", "a+") as hhstream, \
+                open("result_poi.json", "a+") as poistream:
+
+            hh_data = {"timestep": time, "population": []}
             for hh, pop in hh_dict.items():
-                hhstream.write(f"{pop.population}\n")
+                hh_data["population"].append(pop)
 
-            poistream.write(f"timestep_{time}\n")
+            json.dump(hh_data, hhstream, cls=HouseholdEncoder, ensure_ascii=False)
+
+            poi_data = {"timestep": time, "points_of_interest": []}
             for poi, cur_poi in poi_dict.items():
-                poistream.write(f"{cur_poi.name}: {cur_poi.current_people}\n")
+                poi_data["points_of_interest"].append(cur_poi)
+
+            json.dump(poi_data, poistream, cls=POIEncoder, ensure_ascii=False)
+
+
+
 
 
 if __name__ == "__main__":
