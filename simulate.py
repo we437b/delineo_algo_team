@@ -285,8 +285,7 @@ def simulation(settings, city_info, hh_info):
                             spot_list.append(person_list_poi)
                         pop_list_poi.append(spot_list)
                     
-                    poi_ret[f"poi_id_{poi_count}:"] = pop_list_poi
-                    poi_count += 1
+                    poi_ret[f"id_{poi_count}_{cur_poi.name}"] = pop_list_poi
 
                 json.dump({f'timestep_{time}': poi_ret}, poistream)
 
