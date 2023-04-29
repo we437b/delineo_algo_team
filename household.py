@@ -38,11 +38,8 @@ class Population:
     
     def populate_indiv(self, person):
         '''
-
         Populates the population with the person object
-
         @param person = Person class object to be added to population
-
         '''
         
         #adding population
@@ -53,12 +50,9 @@ class Household(Population):
     ''' 
     Household class, inheriting Population since its a small population
     '''
-
-    def __init__(self, cbg, population=[], total_count=0):
-        super().__init()
+    def __init__(self, cbg):
+        super().__init__()
         self.cbg = cbg
-        self.population = population
-        self.total_count = total_count
 
 
     def add_member(self, person):
@@ -121,7 +115,7 @@ if __name__=="__main__":
         household.add_member(Person(pop_data['count'], 1, wife_age, cbg, household))
         pop_data['count'] += 1
 
-        # if there will be children. Old couples have less percent TODO get percents
+        # if there will be children. Old couples have less percent
         #jiwoo: are the numbers 0.1 and 0.05 statistically proven, or are these arbitrary numbers so far?
         children_percent = pop_data['children_true_percent']+0.1 if (age_group < 45 and age_group > 15) else 0.05
 
@@ -264,25 +258,4 @@ if __name__=="__main__":
         yaml.dump(household_list, outstream)
 
     print("Successfully Created Households")
-    
-
-    
-    
-
-
-
-    
-
-    
-
-    
-
-    
-
-
-
-    
-    
-
-
     
