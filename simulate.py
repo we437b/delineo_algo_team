@@ -257,8 +257,8 @@ def simulation(settings, city_info, hh_info):
         old_out = sys.stdout
         if time % 60 == 0.0:
                 
-            count = 0
-            poi_count = 0
+            count = 1
+            poi_count = 1
 
             hh_ret = {}
             for hh, pop in hh_dict.items():
@@ -287,7 +287,7 @@ def simulation(settings, city_info, hh_info):
                     pop_list_poi.append(spot_list)
                 
                 poi_ret[f"id_{poi_count}_{cur_poi.name}"] = pop_list_poi
-
+                poi_count += 1
             poi_return_dict[f'timestep_{time}'] = poi_ret
 
     with open("result_hh.json", "w+") as hhstream:
@@ -295,7 +295,6 @@ def simulation(settings, city_info, hh_info):
     
     with open("result_poi.json", "w+") as poistream:
         json.dump(poi_return_dict, poistream)
-
 
 
 
