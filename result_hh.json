@@ -1,1 +1,2296 @@
-{"timestep_60": {"household_0": [{"age": 60, "cbg": "401139400082", "id": 1, "sex": 1}], "household_1": [], "household_2": [{"age": 60, "cbg": "401139400082", "id": 4, "sex": 0}, {"age": 58, "cbg": "401139400082", "id": 5, "sex": 1}], "household_3": [], "household_4": [], "household_5": [], "household_6": [], "household_7": [], "household_8": [], "household_9": [], "household_10": [], "household_11": [], "household_12": [], "household_13": [], "household_14": [{"age": 67, "cbg": "401139400082", "id": 33, "sex": 0}], "household_15": [], "household_16": [], "household_17": [{"age": 26, "cbg": "401139400082", "id": 39, "sex": 0}], "household_18": [], "household_19": [{"age": 50, "cbg": "401139400082", "id": 46, "sex": 1}], "household_20": [], "household_21": [{"age": 69, "cbg": "401139400082", "id": 50, "sex": 1}], "household_22": [{"age": 72, "cbg": "401139400082", "id": 51, "sex": 0}], "household_23": [{"age": 67, "cbg": "401139400082", "id": 54, "sex": 1}], "household_24": [], "household_25": [{"age": 55, "cbg": "401139400082", "id": 58, "sex": 1}], "household_26": [], "household_27": [], "household_28": [{"age": 18, "cbg": "401139400082", "id": 67, "sex": 0}], "household_29": [], "household_30": [], "household_31": [], "household_32": [{"age": 10, "cbg": "401139400082", "id": 78, "sex": 0}], "household_33": [{"age": 56, "cbg": "401139400082", "id": 79, "sex": 0}], "household_34": [], "household_35": [], "household_36": [], "household_37": [], "household_38": [], "household_39": [], "household_40": [], "household_41": [{"age": 21, "cbg": "401139400082", "id": 96, "sex": 1}], "household_42": [], "household_43": [], "household_44": [], "household_45": [{"age": 69, "cbg": "401139400082", "id": 104, "sex": 1}], "household_46": [], "household_47": [], "household_48": [{"age": 53, "cbg": "401139400082", "id": 110, "sex": 1}], "household_49": [{"age": 31, "cbg": "401139400082", "id": 112, "sex": 1}], "household_50": [], "household_51": [], "household_52": [], "household_53": [], "household_54": [], "household_55": [], "household_56": [], "household_57": [], "household_58": [], "household_59": [], "household_60": [{"age": 74, "cbg": "401139400082", "id": 133, "sex": 1}], "household_61": [], "household_62": [], "household_63": [], "household_64": [], "household_65": [], "household_66": [], "household_67": [], "household_68": [], "household_69": [], "household_70": [], "household_71": [], "household_72": [], "household_73": [], "household_74": [], "household_75": [], "household_76": [{"age": 67, "cbg": "401139400082", "id": 149, "sex": 0}], "household_77": [], "household_78": [], "household_79": [{"age": 21, "cbg": "401139400082", "id": 152, "sex": 0}], "household_80": [], "household_81": [], "household_82": [], "household_83": [], "household_84": [], "household_85": [], "household_86": [], "household_87": [], "household_88": [{"age": 17, "cbg": "401139400082", "id": 165, "sex": 0}], "household_89": [], "household_90": [], "household_91": [], "household_92": []}}{"timestep_120": {"household_0": [], "household_1": [], "household_2": [], "household_3": [], "household_4": [], "household_5": [], "household_6": [{"age": 18, "cbg": "401139400082", "id": 16, "sex": 1}], "household_7": [], "household_8": [{"age": 19, "cbg": "401139400082", "id": 22, "sex": 1}], "household_9": [], "household_10": [], "household_11": [], "household_12": [{"age": 33, "cbg": "401139400082", "id": 29, "sex": 0}], "household_13": [], "household_14": [], "household_15": [], "household_16": [{"age": 23, "cbg": "401139400082", "id": 37, "sex": 0}], "household_17": [{"age": 17, "cbg": "401139400082", "id": 42, "sex": 0}], "household_18": [{"age": 46, "cbg": "401139400082", "id": 43, "sex": 0}], "household_19": [], "household_20": [], "household_21": [], "household_22": [], "household_23": [], "household_24": [], "household_25": [], "household_26": [], "household_27": [], "household_28": [], "household_29": [], "household_30": [], "household_31": [], "household_32": [], "household_33": [], "household_34": [], "household_35": [{"age": 15, "cbg": "401139400082", "id": 84, "sex": 1}], "household_36": [{"age": 18, "cbg": "401139400082", "id": 85, "sex": 0}], "household_37": [{"age": 25, "cbg": "401139400082", "id": 87, "sex": 0}], "household_38": [], "household_39": [], "household_40": [{"age": 16, "cbg": "401139400082", "id": 94, "sex": 1}], "household_41": [], "household_42": [{"age": 54, "cbg": "401139400082", "id": 97, "sex": 0}], "household_43": [], "household_44": [], "household_45": [], "household_46": [], "household_47": [], "household_48": [], "household_49": [], "household_50": [], "household_51": [], "household_52": [], "household_53": [], "household_54": [{"age": 43, "cbg": "401139400082", "id": 122, "sex": 1}], "household_55": [], "household_56": [], "household_57": [{"age": 66, "cbg": "401139400082", "id": 128, "sex": 1}], "household_58": [], "household_59": [], "household_60": [], "household_61": [{"age": 58, "cbg": "401139400082", "id": 134, "sex": 1}], "household_62": [{"age": 43, "cbg": "401139400082", "id": 135, "sex": 1}], "household_63": [], "household_64": [], "household_65": [], "household_66": [], "household_67": [], "household_68": [], "household_69": [], "household_70": [], "household_71": [], "household_72": [], "household_73": [], "household_74": [], "household_75": [], "household_76": [], "household_77": [], "household_78": [], "household_79": [], "household_80": [], "household_81": [], "household_82": [], "household_83": [], "household_84": [], "household_85": [], "household_86": [], "household_87": [{"age": 19, "cbg": "401139400082", "id": 162, "sex": 0}], "household_88": [], "household_89": [], "household_90": [{"age": 62, "cbg": "401139400082", "id": 169, "sex": 1}, {"age": 62, "cbg": "401139400082", "id": 170, "sex": 0}], "household_91": [], "household_92": []}}{"timestep_180": {"household_0": [], "household_1": [], "household_2": [], "household_3": [], "household_4": [], "household_5": [{"age": 51, "cbg": "401139400082", "id": 11, "sex": 1}], "household_6": [{"age": 18, "cbg": "401139400082", "id": 16, "sex": 1}], "household_7": [], "household_8": [{"age": 19, "cbg": "401139400082", "id": 22, "sex": 1}, {"age": 19, "cbg": "401139400082", "id": 21, "sex": 0}], "household_9": [{"age": 48, "cbg": "401139400082", "id": 24, "sex": 1}], "household_10": [], "household_11": [], "household_12": [{"age": 33, "cbg": "401139400082", "id": 29, "sex": 0}], "household_13": [], "household_14": [], "household_15": [], "household_16": [], "household_17": [], "household_18": [], "household_19": [], "household_20": [], "household_21": [{"age": 69, "cbg": "401139400082", "id": 50, "sex": 1}], "household_22": [], "household_23": [], "household_24": [{"age": 60, "cbg": "401139400082", "id": 55, "sex": 0}], "household_25": [], "household_26": [], "household_27": [], "household_28": [], "household_29": [], "household_30": [], "household_31": [], "household_32": [], "household_33": [], "household_34": [], "household_35": [{"age": 15, "cbg": "401139400082", "id": 84, "sex": 1}], "household_36": [], "household_37": [], "household_38": [], "household_39": [], "household_40": [], "household_41": [], "household_42": [], "household_43": [{"age": 55, "cbg": "401139400082", "id": 99, "sex": 0}], "household_44": [], "household_45": [], "household_46": [], "household_47": [], "household_48": [], "household_49": [], "household_50": [], "household_51": [], "household_52": [{"age": 66, "cbg": "401139400082", "id": 118, "sex": 1}], "household_53": [], "household_54": [], "household_55": [{"age": 49, "cbg": "401139400082", "id": 123, "sex": 1}], "household_56": [], "household_57": [], "household_58": [{"age": 65, "cbg": "401139400082", "id": 130, "sex": 1}], "household_59": [], "household_60": [], "household_61": [], "household_62": [], "household_63": [], "household_64": [], "household_65": [], "household_66": [], "household_67": [], "household_68": [], "household_69": [], "household_70": [], "household_71": [], "household_72": [], "household_73": [{"age": 45, "cbg": "401139400082", "id": 146, "sex": 1}], "household_74": [], "household_75": [], "household_76": [], "household_77": [], "household_78": [], "household_79": [], "household_80": [], "household_81": [], "household_82": [{"age": 49, "cbg": "401139400082", "id": 155, "sex": 0}], "household_83": [], "household_84": [], "household_85": [], "household_86": [], "household_87": [], "household_88": [{"age": 22, "cbg": "401139400082", "id": 164, "sex": 1}], "household_89": [{"age": 73, "cbg": "401139400082", "id": 166, "sex": 0}], "household_90": [], "household_91": [], "household_92": []}}{"timestep_240": {"household_0": [], "household_1": [{"age": 61, "cbg": "401139400082", "id": 3, "sex": 1}], "household_2": [], "household_3": [{"age": 44, "cbg": "401139400082", "id": 7, "sex": 1}], "household_4": [], "household_5": [{"age": 45, "cbg": "401139400082", "id": 10, "sex": 0}], "household_6": [], "household_7": [], "household_8": [], "household_9": [{"age": 48, "cbg": "401139400082", "id": 24, "sex": 1}], "household_10": [], "household_11": [], "household_12": [], "household_13": [], "household_14": [], "household_15": [], "household_16": [], "household_17": [{"age": 17, "cbg": "401139400082", "id": 42, "sex": 0}], "household_18": [], "household_19": [], "household_20": [], "household_21": [{"age": 69, "cbg": "401139400082", "id": 49, "sex": 0}], "household_22": [], "household_23": [], "household_24": [], "household_25": [], "household_26": [], "household_27": [], "household_28": [{"age": 14, "cbg": "401139400082", "id": 68, "sex": 1}], "household_29": [{"age": 53, "cbg": "401139400082", "id": 70, "sex": 1}], "household_30": [{"age": 20, "cbg": "401139400082", "id": 72, "sex": 1}], "household_31": [], "household_32": [], "household_33": [], "household_34": [], "household_35": [], "household_36": [], "household_37": [], "household_38": [{"age": 71, "cbg": "401139400082", "id": 90, "sex": 1}], "household_39": [], "household_40": [], "household_41": [], "household_42": [], "household_43": [], "household_44": [{"age": 20, "cbg": "401139400082", "id": 101, "sex": 0}], "household_45": [{"age": 74, "cbg": "401139400082", "id": 103, "sex": 0}], "household_46": [], "household_47": [], "household_48": [], "household_49": [{"age": 28, "cbg": "401139400082", "id": 111, "sex": 0}], "household_50": [], "household_51": [{"age": 43, "cbg": "401139400082", "id": 115, "sex": 0}], "household_52": [], "household_53": [{"age": 70, "cbg": "401139400082", "id": 119, "sex": 0}], "household_54": [], "household_55": [], "household_56": [], "household_57": [], "household_58": [], "household_59": [], "household_60": [], "household_61": [], "household_62": [], "household_63": [], "household_64": [], "household_65": [], "household_66": [], "household_67": [], "household_68": [], "household_69": [], "household_70": [], "household_71": [], "household_72": [{"age": 32, "cbg": "401139400082", "id": 145, "sex": 1}], "household_73": [], "household_74": [], "household_75": [], "household_76": [], "household_77": [], "household_78": [], "household_79": [], "household_80": [], "household_81": [], "household_82": [], "household_83": [], "household_84": [], "household_85": [], "household_86": [{"age": 21, "cbg": "401139400082", "id": 159, "sex": 0}], "household_87": [], "household_88": [], "household_89": [], "household_90": [], "household_91": [], "household_92": []}}{"timestep_300": {"household_0": [], "household_1": [], "household_2": [], "household_3": [{"age": 41, "cbg": "401139400082", "id": 6, "sex": 0}], "household_4": [{"age": 18, "cbg": "401139400082", "id": 9, "sex": 1}], "household_5": [], "household_6": [{"age": 15, "cbg": "401139400082", "id": 15, "sex": 1}], "household_7": [{"age": 15, "cbg": "401139400082", "id": 19, "sex": 0}], "household_8": [], "household_9": [], "household_10": [], "household_11": [], "household_12": [], "household_13": [], "household_14": [], "household_15": [], "household_16": [{"age": 16, "cbg": "401139400082", "id": 38, "sex": 1}], "household_17": [], "household_18": [], "household_19": [{"age": 50, "cbg": "401139400082", "id": 46, "sex": 1}], "household_20": [{"age": 62, "cbg": "401139400082", "id": 47, "sex": 0}], "household_21": [{"age": 69, "cbg": "401139400082", "id": 50, "sex": 1}], "household_22": [], "household_23": [], "household_24": [], "household_25": [{"age": 55, "cbg": "401139400082", "id": 58, "sex": 1}], "household_26": [], "household_27": [], "household_28": [], "household_29": [{"age": 49, "cbg": "401139400082", "id": 69, "sex": 0}, {"age": 53, "cbg": "401139400082", "id": 70, "sex": 1}], "household_30": [], "household_31": [], "household_32": [], "household_33": [], "household_34": [], "household_35": [], "household_36": [], "household_37": [], "household_38": [{"age": 71, "cbg": "401139400082", "id": 90, "sex": 1}, {"age": 71, "cbg": "401139400082", "id": 89, "sex": 0}], "household_39": [], "household_40": [], "household_41": [], "household_42": [], "household_43": [], "household_44": [], "household_45": [], "household_46": [], "household_47": [], "household_48": [], "household_49": [], "household_50": [], "household_51": [], "household_52": [], "household_53": [], "household_54": [], "household_55": [], "household_56": [], "household_57": [], "household_58": [{"age": 73, "cbg": "401139400082", "id": 129, "sex": 0}], "household_59": [], "household_60": [], "household_61": [], "household_62": [], "household_63": [], "household_64": [], "household_65": [], "household_66": [], "household_67": [], "household_68": [], "household_69": [], "household_70": [], "household_71": [], "household_72": [], "household_73": [], "household_74": [], "household_75": [], "household_76": [], "household_77": [], "household_78": [], "household_79": [], "household_80": [], "household_81": [], "household_82": [], "household_83": [], "household_84": [], "household_85": [], "household_86": [{"age": 21, "cbg": "401139400082", "id": 159, "sex": 0}], "household_87": [], "household_88": [], "household_89": [], "household_90": [], "household_91": [], "household_92": []}}{"timestep_360": {"household_0": [], "household_1": [{"age": 62, "cbg": "401139400082", "id": 2, "sex": 0}, {"age": 61, "cbg": "401139400082", "id": 3, "sex": 1}], "household_2": [], "household_3": [{"age": 41, "cbg": "401139400082", "id": 6, "sex": 0}], "household_4": [], "household_5": [{"age": 45, "cbg": "401139400082", "id": 10, "sex": 0}], "household_6": [], "household_7": [{"age": 26, "cbg": "401139400082", "id": 17, "sex": 0}], "household_8": [], "household_9": [], "household_10": [], "household_11": [], "household_12": [], "household_13": [], "household_14": [{"age": 67, "cbg": "401139400082", "id": 33, "sex": 0}], "household_15": [], "household_16": [], "household_17": [{"age": 13, "cbg": "401139400082", "id": 41, "sex": 1}], "household_18": [], "household_19": [], "household_20": [], "household_21": [{"age": 69, "cbg": "401139400082", "id": 49, "sex": 0}], "household_22": [], "household_23": [], "household_24": [], "household_25": [{"age": 55, "cbg": "401139400082", "id": 58, "sex": 1}], "household_26": [], "household_27": [{"age": 36, "cbg": "401139400082", "id": 62, "sex": 1}], "household_28": [], "household_29": [{"age": 53, "cbg": "401139400082", "id": 70, "sex": 1}], "household_30": [], "household_31": [{"age": 21, "cbg": "401139400082", "id": 73, "sex": 0}], "household_32": [], "household_33": [], "household_34": [], "household_35": [], "household_36": [], "household_37": [], "household_38": [], "household_39": [], "household_40": [{"age": 15, "cbg": "401139400082", "id": 93, "sex": 0}], "household_41": [], "household_42": [], "household_43": [], "household_44": [], "household_45": [], "household_46": [], "household_47": [], "household_48": [], "household_49": [], "household_50": [], "household_51": [{"age": 37, "cbg": "401139400082", "id": 116, "sex": 1}], "household_52": [], "household_53": [], "household_54": [], "household_55": [], "household_56": [], "household_57": [], "household_58": [], "household_59": [], "household_60": [], "household_61": [], "household_62": [], "household_63": [], "household_64": [{"age": 24, "cbg": "401139400082", "id": 137, "sex": 1}], "household_65": [], "household_66": [], "household_67": [], "household_68": [], "household_69": [], "household_70": [], "household_71": [], "household_72": [], "household_73": [], "household_74": [], "household_75": [], "household_76": [], "household_77": [{"age": 74, "cbg": "401139400082", "id": 150, "sex": 0}], "household_78": [], "household_79": [], "household_80": [], "household_81": [], "household_82": [], "household_83": [], "household_84": [], "household_85": [], "household_86": [], "household_87": [], "household_88": [], "household_89": [], "household_90": [], "household_91": [], "household_92": [{"age": 50, "cbg": "401139400082", "id": 175, "sex": 0}]}}{"timestep_420": {"household_0": [], "household_1": [], "household_2": [], "household_3": [], "household_4": [{"age": 16, "cbg": "401139400082", "id": 8, "sex": 0}], "household_5": [], "household_6": [], "household_7": [{"age": 15, "cbg": "401139400082", "id": 19, "sex": 0}], "household_8": [], "household_9": [], "household_10": [], "household_11": [], "household_12": [], "household_13": [], "household_14": [], "household_15": [{"age": 55, "cbg": "401139400082", "id": 36, "sex": 1}], "household_16": [], "household_17": [], "household_18": [], "household_19": [], "household_20": [], "household_21": [], "household_22": [{"age": 72, "cbg": "401139400082", "id": 52, "sex": 1}], "household_23": [], "household_24": [], "household_25": [], "household_26": [{"age": 67, "cbg": "401139400082", "id": 59, "sex": 0}], "household_27": [{"age": 36, "cbg": "401139400082", "id": 62, "sex": 1}, {"age": 17, "cbg": "401139400082", "id": 63, "sex": 1}], "household_28": [{"age": 14, "cbg": "401139400082", "id": 68, "sex": 1}], "household_29": [], "household_30": [], "household_31": [], "household_32": [], "household_33": [], "household_34": [], "household_35": [], "household_36": [], "household_37": [], "household_38": [], "household_39": [], "household_40": [], "household_41": [], "household_42": [], "household_43": [], "household_44": [], "household_45": [], "household_46": [], "household_47": [], "household_48": [{"age": 53, "cbg": "401139400082", "id": 110, "sex": 1}], "household_49": [], "household_50": [], "household_51": [], "household_52": [], "household_53": [{"age": 70, "cbg": "401139400082", "id": 119, "sex": 0}, {"age": 73, "cbg": "401139400082", "id": 120, "sex": 1}], "household_54": [], "household_55": [], "household_56": [], "household_57": [], "household_58": [], "household_59": [], "household_60": [], "household_61": [], "household_62": [], "household_63": [], "household_64": [{"age": 24, "cbg": "401139400082", "id": 137, "sex": 1}], "household_65": [], "household_66": [], "household_67": [], "household_68": [], "household_69": [], "household_70": [], "household_71": [], "household_72": [], "household_73": [{"age": 45, "cbg": "401139400082", "id": 146, "sex": 1}], "household_74": [], "household_75": [], "household_76": [], "household_77": [], "household_78": [], "household_79": [], "household_80": [{"age": 55, "cbg": "401139400082", "id": 153, "sex": 0}], "household_81": [], "household_82": [], "household_83": [], "household_84": [], "household_85": [{"age": 30, "cbg": "401139400082", "id": 158, "sex": 0}], "household_86": [{"age": 21, "cbg": "401139400082", "id": 159, "sex": 0}], "household_87": [], "household_88": [], "household_89": [{"age": 73, "cbg": "401139400082", "id": 166, "sex": 0}], "household_90": [], "household_91": [], "household_92": []}}{"timestep_480": {"household_0": [{"age": 60, "cbg": "401139400082", "id": 1, "sex": 1}], "household_1": [], "household_2": [], "household_3": [], "household_4": [], "household_5": [{"age": 45, "cbg": "401139400082", "id": 10, "sex": 0}], "household_6": [{"age": 15, "cbg": "401139400082", "id": 15, "sex": 1}], "household_7": [], "household_8": [], "household_9": [{"age": 48, "cbg": "401139400082", "id": 24, "sex": 1}], "household_10": [], "household_11": [], "household_12": [], "household_13": [], "household_14": [], "household_15": [{"age": 55, "cbg": "401139400082", "id": 36, "sex": 1}], "household_16": [{"age": 16, "cbg": "401139400082", "id": 38, "sex": 1}], "household_17": [], "household_18": [], "household_19": [{"age": 54, "cbg": "401139400082", "id": 45, "sex": 0}], "household_20": [], "household_21": [], "household_22": [], "household_23": [], "household_24": [{"age": 60, "cbg": "401139400082", "id": 55, "sex": 0}], "household_25": [], "household_26": [], "household_27": [], "household_28": [{"age": 40, "cbg": "401139400082", "id": 66, "sex": 1}], "household_29": [], "household_30": [], "household_31": [], "household_32": [{"age": 6, "cbg": "401139400082", "id": 77, "sex": 1}], "household_33": [], "household_34": [], "household_35": [], "household_36": [], "household_37": [], "household_38": [], "household_39": [], "household_40": [], "household_41": [{"age": 21, "cbg": "401139400082", "id": 96, "sex": 1}], "household_42": [], "household_43": [], "household_44": [], "household_45": [], "household_46": [], "household_47": [], "household_48": [], "household_49": [], "household_50": [], "household_51": [], "household_52": [], "household_53": [], "household_54": [], "household_55": [], "household_56": [], "household_57": [], "household_58": [], "household_59": [], "household_60": [], "household_61": [], "household_62": [], "household_63": [], "household_64": [{"age": 24, "cbg": "401139400082", "id": 137, "sex": 1}], "household_65": [], "household_66": [{"age": 27, "cbg": "401139400082", "id": 139, "sex": 1}], "household_67": [], "household_68": [], "household_69": [], "household_70": [], "household_71": [], "household_72": [], "household_73": [], "household_74": [], "household_75": [], "household_76": [], "household_77": [], "household_78": [], "household_79": [], "household_80": [], "household_81": [], "household_82": [], "household_83": [], "household_84": [], "household_85": [], "household_86": [{"age": 21, "cbg": "401139400082", "id": 159, "sex": 0}], "household_87": [], "household_88": [{"age": 17, "cbg": "401139400082", "id": 165, "sex": 0}], "household_89": [], "household_90": [{"age": 62, "cbg": "401139400082", "id": 168, "sex": 0}], "household_91": [], "household_92": [{"age": 54, "cbg": "401139400082", "id": 174, "sex": 0}]}}{"timestep_540": {"household_0": [], "household_1": [{"age": 62, "cbg": "401139400082", "id": 2, "sex": 0}, {"age": 61, "cbg": "401139400082", "id": 3, "sex": 1}], "household_2": [], "household_3": [], "household_4": [], "household_5": [], "household_6": [], "household_7": [], "household_8": [], "household_9": [], "household_10": [], "household_11": [{"age": 67, "cbg": "401139400082", "id": 28, "sex": 1}], "household_12": [], "household_13": [], "household_14": [], "household_15": [{"age": 55, "cbg": "401139400082", "id": 36, "sex": 1}], "household_16": [{"age": 16, "cbg": "401139400082", "id": 38, "sex": 1}], "household_17": [{"age": 25, "cbg": "401139400082", "id": 40, "sex": 1}], "household_18": [], "household_19": [], "household_20": [], "household_21": [], "household_22": [], "household_23": [], "household_24": [], "household_25": [], "household_26": [{"age": 65, "cbg": "401139400082", "id": 60, "sex": 1}], "household_27": [], "household_28": [], "household_29": [], "household_30": [], "household_31": [], "household_32": [], "household_33": [], "household_34": [], "household_35": [{"age": 15, "cbg": "401139400082", "id": 84, "sex": 1}], "household_36": [], "household_37": [], "household_38": [], "household_39": [], "household_40": [], "household_41": [{"age": 21, "cbg": "401139400082", "id": 96, "sex": 1}], "household_42": [], "household_43": [], "household_44": [], "household_45": [], "household_46": [], "household_47": [{"age": 67, "cbg": "401139400082", "id": 107, "sex": 0}], "household_48": [{"age": 53, "cbg": "401139400082", "id": 110, "sex": 1}], "household_49": [], "household_50": [], "household_51": [{"age": 43, "cbg": "401139400082", "id": 115, "sex": 0}], "household_52": [], "household_53": [], "household_54": [], "household_55": [], "household_56": [{"age": 37, "cbg": "401139400082", "id": 125, "sex": 1}], "household_57": [], "household_58": [], "household_59": [], "household_60": [], "household_61": [], "household_62": [], "household_63": [], "household_64": [], "household_65": [], "household_66": [{"age": 27, "cbg": "401139400082", "id": 139, "sex": 1}], "household_67": [], "household_68": [], "household_69": [], "household_70": [], "household_71": [], "household_72": [], "household_73": [], "household_74": [], "household_75": [], "household_76": [], "household_77": [], "household_78": [], "household_79": [], "household_80": [], "household_81": [{"age": 32, "cbg": "401139400082", "id": 154, "sex": 0}], "household_82": [], "household_83": [], "household_84": [], "household_85": [], "household_86": [], "household_87": [], "household_88": [], "household_89": [], "household_90": [{"age": 62, "cbg": "401139400082", "id": 168, "sex": 0}], "household_91": [], "household_92": []}}{"timestep_600": {"household_0": [], "household_1": [], "household_2": [{"age": 60, "cbg": "401139400082", "id": 4, "sex": 0}], "household_3": [], "household_4": [], "household_5": [], "household_6": [], "household_7": [], "household_8": [], "household_9": [], "household_10": [], "household_11": [{"age": 67, "cbg": "401139400082", "id": 28, "sex": 1}], "household_12": [], "household_13": [], "household_14": [{"age": 70, "cbg": "401139400082", "id": 34, "sex": 1}], "household_15": [], "household_16": [], "household_17": [], "household_18": [{"age": 47, "cbg": "401139400082", "id": 44, "sex": 1}], "household_19": [{"age": 54, "cbg": "401139400082", "id": 45, "sex": 0}], "household_20": [], "household_21": [], "household_22": [], "household_23": [], "household_24": [], "household_25": [], "household_26": [], "household_27": [], "household_28": [], "household_29": [], "household_30": [], "household_31": [], "household_32": [], "household_33": [], "household_34": [], "household_35": [], "household_36": [], "household_37": [], "household_38": [], "household_39": [], "household_40": [], "household_41": [], "household_42": [], "household_43": [], "household_44": [], "household_45": [], "household_46": [], "household_47": [], "household_48": [{"age": 45, "cbg": "401139400082", "id": 109, "sex": 0}], "household_49": [], "household_50": [], "household_51": [{"age": 43, "cbg": "401139400082", "id": 115, "sex": 0}], "household_52": [], "household_53": [{"age": 73, "cbg": "401139400082", "id": 120, "sex": 1}], "household_54": [], "household_55": [], "household_56": [], "household_57": [], "household_58": [], "household_59": [], "household_60": [], "household_61": [], "household_62": [], "household_63": [], "household_64": [], "household_65": [], "household_66": [], "household_67": [{"age": 23, "cbg": "401139400082", "id": 140, "sex": 1}], "household_68": [], "household_69": [{"age": 73, "cbg": "401139400082", "id": 142, "sex": 1}], "household_70": [], "household_71": [], "household_72": [], "household_73": [], "household_74": [], "household_75": [{"age": 48, "cbg": "401139400082", "id": 148, "sex": 0}], "household_76": [], "household_77": [], "household_78": [], "household_79": [], "household_80": [{"age": 55, "cbg": "401139400082", "id": 153, "sex": 0}], "household_81": [], "household_82": [], "household_83": [], "household_84": [], "household_85": [], "household_86": [], "household_87": [], "household_88": [{"age": 17, "cbg": "401139400082", "id": 165, "sex": 0}], "household_89": [], "household_90": [], "household_91": [], "household_92": []}}
+{
+    "timestep_60": {
+        "household_0": [],
+        "household_1": [
+            {
+                "age": 62,
+                "cbg": "401139400082",
+                "id": 2,
+                "sex": 0
+            }
+        ],
+        "household_2": [],
+        "household_3": [],
+        "household_4": [],
+        "household_5": [],
+        "household_6": [
+            {
+                "age": 15,
+                "cbg": "401139400082",
+                "id": 15,
+                "sex": 1
+            }
+        ],
+        "household_7": [],
+        "household_8": [],
+        "household_9": [],
+        "household_10": [],
+        "household_11": [],
+        "household_12": [],
+        "household_13": [],
+        "household_14": [
+            {
+                "age": 70,
+                "cbg": "401139400082",
+                "id": 34,
+                "sex": 1
+            }
+        ],
+        "household_15": [],
+        "household_16": [
+            {
+                "age": 16,
+                "cbg": "401139400082",
+                "id": 38,
+                "sex": 1
+            }
+        ],
+        "household_17": [
+            {
+                "age": 26,
+                "cbg": "401139400082",
+                "id": 39,
+                "sex": 0
+            },
+            {
+                "age": 25,
+                "cbg": "401139400082",
+                "id": 40,
+                "sex": 1
+            }
+        ],
+        "household_18": [],
+        "household_19": [],
+        "household_20": [
+            {
+                "age": 62,
+                "cbg": "401139400082",
+                "id": 47,
+                "sex": 0
+            }
+        ],
+        "household_21": [],
+        "household_22": [
+            {
+                "age": 72,
+                "cbg": "401139400082",
+                "id": 51,
+                "sex": 0
+            },
+            {
+                "age": 72,
+                "cbg": "401139400082",
+                "id": 52,
+                "sex": 1
+            }
+        ],
+        "household_23": [
+            {
+                "age": 67,
+                "cbg": "401139400082",
+                "id": 54,
+                "sex": 1
+            }
+        ],
+        "household_24": [
+            {
+                "age": 64,
+                "cbg": "401139400082",
+                "id": 56,
+                "sex": 1
+            }
+        ],
+        "household_25": [
+            {
+                "age": 58,
+                "cbg": "401139400082",
+                "id": 57,
+                "sex": 0
+            }
+        ],
+        "household_26": [],
+        "household_27": [],
+        "household_28": [],
+        "household_29": [],
+        "household_30": [],
+        "household_31": [
+            {
+                "age": 21,
+                "cbg": "401139400082",
+                "id": 73,
+                "sex": 0
+            },
+            {
+                "age": 17,
+                "cbg": "401139400082",
+                "id": 74,
+                "sex": 1
+            }
+        ],
+        "household_32": [
+            {
+                "age": 6,
+                "cbg": "401139400082",
+                "id": 77,
+                "sex": 1
+            }
+        ],
+        "household_33": [],
+        "household_34": [],
+        "household_35": [
+            {
+                "age": 15,
+                "cbg": "401139400082",
+                "id": 84,
+                "sex": 1
+            }
+        ],
+        "household_36": [],
+        "household_37": [],
+        "household_38": [],
+        "household_39": [],
+        "household_40": [],
+        "household_41": [],
+        "household_42": [],
+        "household_43": [],
+        "household_44": [],
+        "household_45": [
+            {
+                "age": 69,
+                "cbg": "401139400082",
+                "id": 104,
+                "sex": 1
+            }
+        ],
+        "household_46": [],
+        "household_47": [],
+        "household_48": [],
+        "household_49": [],
+        "household_50": [
+            {
+                "age": 60,
+                "cbg": "401139400082",
+                "id": 114,
+                "sex": 1
+            }
+        ],
+        "household_51": [
+            {
+                "age": 37,
+                "cbg": "401139400082",
+                "id": 116,
+                "sex": 1
+            }
+        ],
+        "household_52": [
+            {
+                "age": 73,
+                "cbg": "401139400082",
+                "id": 117,
+                "sex": 0
+            }
+        ],
+        "household_53": [],
+        "household_54": [],
+        "household_55": [],
+        "household_56": [
+            {
+                "age": 38,
+                "cbg": "401139400082",
+                "id": 126,
+                "sex": 0
+            }
+        ],
+        "household_57": [
+            {
+                "age": 66,
+                "cbg": "401139400082",
+                "id": 128,
+                "sex": 1
+            }
+        ],
+        "household_58": [
+            {
+                "age": 65,
+                "cbg": "401139400082",
+                "id": 130,
+                "sex": 1
+            }
+        ],
+        "household_59": [],
+        "household_60": [],
+        "household_61": [],
+        "household_62": [],
+        "household_63": [
+            {
+                "age": 38,
+                "cbg": "401139400082",
+                "id": 136,
+                "sex": 1
+            }
+        ],
+        "household_64": [],
+        "household_65": [],
+        "household_66": [],
+        "household_67": [],
+        "household_68": [],
+        "household_69": [],
+        "household_70": [],
+        "household_71": [],
+        "household_72": [],
+        "household_73": [],
+        "household_74": [],
+        "household_75": [],
+        "household_76": [],
+        "household_77": [],
+        "household_78": [
+            {
+                "age": 29,
+                "cbg": "401139400082",
+                "id": 151,
+                "sex": 0
+            }
+        ],
+        "household_79": [
+            {
+                "age": 21,
+                "cbg": "401139400082",
+                "id": 152,
+                "sex": 0
+            }
+        ],
+        "household_80": [
+            {
+                "age": 55,
+                "cbg": "401139400082",
+                "id": 153,
+                "sex": 0
+            }
+        ],
+        "household_81": [],
+        "household_82": [],
+        "household_83": [],
+        "household_84": [],
+        "household_85": [
+            {
+                "age": 30,
+                "cbg": "401139400082",
+                "id": 158,
+                "sex": 0
+            }
+        ],
+        "household_86": [],
+        "household_87": [],
+        "household_88": [
+            {
+                "age": 17,
+                "cbg": "401139400082",
+                "id": 165,
+                "sex": 0
+            }
+        ],
+        "household_89": [
+            {
+                "age": 73,
+                "cbg": "401139400082",
+                "id": 166,
+                "sex": 0
+            }
+        ],
+        "household_90": [],
+        "household_91": [],
+        "household_92": [
+            {
+                "age": 50,
+                "cbg": "401139400082",
+                "id": 175,
+                "sex": 0
+            }
+        ]
+    },
+    "timestep_120": {
+        "household_0": [],
+        "household_1": [],
+        "household_2": [],
+        "household_3": [
+            {
+                "age": 41,
+                "cbg": "401139400082",
+                "id": 6,
+                "sex": 0
+            }
+        ],
+        "household_4": [],
+        "household_5": [],
+        "household_6": [
+            {
+                "age": 11,
+                "cbg": "401139400082",
+                "id": 14,
+                "sex": 0
+            }
+        ],
+        "household_7": [],
+        "household_8": [],
+        "household_9": [
+            {
+                "age": 49,
+                "cbg": "401139400082",
+                "id": 23,
+                "sex": 0
+            }
+        ],
+        "household_10": [],
+        "household_11": [],
+        "household_12": [],
+        "household_13": [],
+        "household_14": [],
+        "household_15": [
+            {
+                "age": 55,
+                "cbg": "401139400082",
+                "id": 36,
+                "sex": 1
+            }
+        ],
+        "household_16": [],
+        "household_17": [
+            {
+                "age": 25,
+                "cbg": "401139400082",
+                "id": 40,
+                "sex": 1
+            },
+            {
+                "age": 17,
+                "cbg": "401139400082",
+                "id": 42,
+                "sex": 0
+            }
+        ],
+        "household_18": [],
+        "household_19": [],
+        "household_20": [],
+        "household_21": [],
+        "household_22": [],
+        "household_23": [],
+        "household_24": [],
+        "household_25": [
+            {
+                "age": 55,
+                "cbg": "401139400082",
+                "id": 58,
+                "sex": 1
+            }
+        ],
+        "household_26": [],
+        "household_27": [],
+        "household_28": [],
+        "household_29": [],
+        "household_30": [],
+        "household_31": [
+            {
+                "age": 21,
+                "cbg": "401139400082",
+                "id": 73,
+                "sex": 0
+            }
+        ],
+        "household_32": [],
+        "household_33": [],
+        "household_34": [],
+        "household_35": [
+            {
+                "age": 15,
+                "cbg": "401139400082",
+                "id": 84,
+                "sex": 1
+            }
+        ],
+        "household_36": [],
+        "household_37": [],
+        "household_38": [],
+        "household_39": [
+            {
+                "age": 26,
+                "cbg": "401139400082",
+                "id": 92,
+                "sex": 1
+            }
+        ],
+        "household_40": [],
+        "household_41": [
+            {
+                "age": 21,
+                "cbg": "401139400082",
+                "id": 95,
+                "sex": 0
+            }
+        ],
+        "household_42": [],
+        "household_43": [],
+        "household_44": [],
+        "household_45": [
+            {
+                "age": 69,
+                "cbg": "401139400082",
+                "id": 104,
+                "sex": 1
+            }
+        ],
+        "household_46": [],
+        "household_47": [],
+        "household_48": [],
+        "household_49": [],
+        "household_50": [],
+        "household_51": [],
+        "household_52": [],
+        "household_53": [],
+        "household_54": [],
+        "household_55": [],
+        "household_56": [],
+        "household_57": [],
+        "household_58": [],
+        "household_59": [],
+        "household_60": [],
+        "household_61": [],
+        "household_62": [
+            {
+                "age": 43,
+                "cbg": "401139400082",
+                "id": 135,
+                "sex": 1
+            }
+        ],
+        "household_63": [],
+        "household_64": [],
+        "household_65": [],
+        "household_66": [],
+        "household_67": [],
+        "household_68": [],
+        "household_69": [],
+        "household_70": [],
+        "household_71": [],
+        "household_72": [],
+        "household_73": [],
+        "household_74": [],
+        "household_75": [],
+        "household_76": [
+            {
+                "age": 67,
+                "cbg": "401139400082",
+                "id": 149,
+                "sex": 0
+            }
+        ],
+        "household_77": [],
+        "household_78": [],
+        "household_79": [],
+        "household_80": [],
+        "household_81": [],
+        "household_82": [],
+        "household_83": [
+            {
+                "age": 33,
+                "cbg": "401139400082",
+                "id": 156,
+                "sex": 0
+            }
+        ],
+        "household_84": [],
+        "household_85": [],
+        "household_86": [],
+        "household_87": [],
+        "household_88": [],
+        "household_89": [],
+        "household_90": [],
+        "household_91": [],
+        "household_92": []
+    },
+    "timestep_180": {
+        "household_0": [
+            {
+                "age": 63,
+                "cbg": "401139400082",
+                "id": 0,
+                "sex": 0
+            }
+        ],
+        "household_1": [],
+        "household_2": [],
+        "household_3": [],
+        "household_4": [],
+        "household_5": [],
+        "household_6": [],
+        "household_7": [
+            {
+                "age": 13,
+                "cbg": "401139400082",
+                "id": 20,
+                "sex": 1
+            }
+        ],
+        "household_8": [],
+        "household_9": [],
+        "household_10": [],
+        "household_11": [],
+        "household_12": [],
+        "household_13": [],
+        "household_14": [],
+        "household_15": [],
+        "household_16": [],
+        "household_17": [],
+        "household_18": [],
+        "household_19": [],
+        "household_20": [],
+        "household_21": [],
+        "household_22": [
+            {
+                "age": 72,
+                "cbg": "401139400082",
+                "id": 52,
+                "sex": 1
+            }
+        ],
+        "household_23": [],
+        "household_24": [
+            {
+                "age": 64,
+                "cbg": "401139400082",
+                "id": 56,
+                "sex": 1
+            }
+        ],
+        "household_25": [],
+        "household_26": [],
+        "household_27": [
+            {
+                "age": 36,
+                "cbg": "401139400082",
+                "id": 62,
+                "sex": 1
+            }
+        ],
+        "household_28": [],
+        "household_29": [],
+        "household_30": [
+            {
+                "age": 15,
+                "cbg": "401139400082",
+                "id": 71,
+                "sex": 0
+            }
+        ],
+        "household_31": [],
+        "household_32": [],
+        "household_33": [],
+        "household_34": [],
+        "household_35": [],
+        "household_36": [
+            {
+                "age": 17,
+                "cbg": "401139400082",
+                "id": 86,
+                "sex": 1
+            }
+        ],
+        "household_37": [],
+        "household_38": [],
+        "household_39": [],
+        "household_40": [],
+        "household_41": [
+            {
+                "age": 21,
+                "cbg": "401139400082",
+                "id": 96,
+                "sex": 1
+            }
+        ],
+        "household_42": [],
+        "household_43": [],
+        "household_44": [],
+        "household_45": [],
+        "household_46": [],
+        "household_47": [],
+        "household_48": [],
+        "household_49": [],
+        "household_50": [],
+        "household_51": [],
+        "household_52": [],
+        "household_53": [],
+        "household_54": [],
+        "household_55": [],
+        "household_56": [],
+        "household_57": [],
+        "household_58": [],
+        "household_59": [
+            {
+                "age": 49,
+                "cbg": "401139400082",
+                "id": 131,
+                "sex": 0
+            }
+        ],
+        "household_60": [],
+        "household_61": [],
+        "household_62": [],
+        "household_63": [],
+        "household_64": [],
+        "household_65": [],
+        "household_66": [],
+        "household_67": [],
+        "household_68": [],
+        "household_69": [],
+        "household_70": [],
+        "household_71": [],
+        "household_72": [],
+        "household_73": [
+            {
+                "age": 45,
+                "cbg": "401139400082",
+                "id": 146,
+                "sex": 1
+            }
+        ],
+        "household_74": [],
+        "household_75": [],
+        "household_76": [],
+        "household_77": [],
+        "household_78": [
+            {
+                "age": 29,
+                "cbg": "401139400082",
+                "id": 151,
+                "sex": 0
+            }
+        ],
+        "household_79": [],
+        "household_80": [],
+        "household_81": [],
+        "household_82": [],
+        "household_83": [
+            {
+                "age": 33,
+                "cbg": "401139400082",
+                "id": 156,
+                "sex": 0
+            }
+        ],
+        "household_84": [],
+        "household_85": [],
+        "household_86": [],
+        "household_87": [],
+        "household_88": [
+            {
+                "age": 17,
+                "cbg": "401139400082",
+                "id": 165,
+                "sex": 0
+            }
+        ],
+        "household_89": [],
+        "household_90": [
+            {
+                "age": 62,
+                "cbg": "401139400082",
+                "id": 169,
+                "sex": 1
+            }
+        ],
+        "household_91": [],
+        "household_92": []
+    },
+    "timestep_240": {
+        "household_0": [
+            {
+                "age": 60,
+                "cbg": "401139400082",
+                "id": 1,
+                "sex": 1
+            }
+        ],
+        "household_1": [],
+        "household_2": [],
+        "household_3": [],
+        "household_4": [],
+        "household_5": [],
+        "household_6": [
+            {
+                "age": 30,
+                "cbg": "401139400082",
+                "id": 12,
+                "sex": 0
+            }
+        ],
+        "household_7": [
+            {
+                "age": 26,
+                "cbg": "401139400082",
+                "id": 17,
+                "sex": 0
+            }
+        ],
+        "household_8": [],
+        "household_9": [],
+        "household_10": [],
+        "household_11": [],
+        "household_12": [],
+        "household_13": [],
+        "household_14": [],
+        "household_15": [],
+        "household_16": [],
+        "household_17": [],
+        "household_18": [],
+        "household_19": [],
+        "household_20": [],
+        "household_21": [
+            {
+                "age": 69,
+                "cbg": "401139400082",
+                "id": 50,
+                "sex": 1
+            }
+        ],
+        "household_22": [],
+        "household_23": [],
+        "household_24": [],
+        "household_25": [],
+        "household_26": [
+            {
+                "age": 65,
+                "cbg": "401139400082",
+                "id": 60,
+                "sex": 1
+            }
+        ],
+        "household_27": [],
+        "household_28": [],
+        "household_29": [],
+        "household_30": [],
+        "household_31": [],
+        "household_32": [],
+        "household_33": [],
+        "household_34": [
+            {
+                "age": 65,
+                "cbg": "401139400082",
+                "id": 82,
+                "sex": 1
+            }
+        ],
+        "household_35": [],
+        "household_36": [],
+        "household_37": [],
+        "household_38": [],
+        "household_39": [],
+        "household_40": [
+            {
+                "age": 15,
+                "cbg": "401139400082",
+                "id": 93,
+                "sex": 0
+            },
+            {
+                "age": 16,
+                "cbg": "401139400082",
+                "id": 94,
+                "sex": 1
+            }
+        ],
+        "household_41": [],
+        "household_42": [],
+        "household_43": [
+            {
+                "age": 55,
+                "cbg": "401139400082",
+                "id": 99,
+                "sex": 0
+            }
+        ],
+        "household_44": [],
+        "household_45": [],
+        "household_46": [],
+        "household_47": [],
+        "household_48": [],
+        "household_49": [],
+        "household_50": [],
+        "household_51": [],
+        "household_52": [],
+        "household_53": [
+            {
+                "age": 73,
+                "cbg": "401139400082",
+                "id": 120,
+                "sex": 1
+            }
+        ],
+        "household_54": [],
+        "household_55": [],
+        "household_56": [],
+        "household_57": [
+            {
+                "age": 66,
+                "cbg": "401139400082",
+                "id": 128,
+                "sex": 1
+            }
+        ],
+        "household_58": [],
+        "household_59": [],
+        "household_60": [],
+        "household_61": [
+            {
+                "age": 58,
+                "cbg": "401139400082",
+                "id": 134,
+                "sex": 1
+            }
+        ],
+        "household_62": [],
+        "household_63": [],
+        "household_64": [],
+        "household_65": [],
+        "household_66": [],
+        "household_67": [],
+        "household_68": [],
+        "household_69": [],
+        "household_70": [],
+        "household_71": [],
+        "household_72": [],
+        "household_73": [],
+        "household_74": [],
+        "household_75": [],
+        "household_76": [],
+        "household_77": [],
+        "household_78": [],
+        "household_79": [],
+        "household_80": [],
+        "household_81": [],
+        "household_82": [],
+        "household_83": [],
+        "household_84": [],
+        "household_85": [],
+        "household_86": [],
+        "household_87": [],
+        "household_88": [],
+        "household_89": [
+            {
+                "age": 73,
+                "cbg": "401139400082",
+                "id": 166,
+                "sex": 0
+            }
+        ],
+        "household_90": [],
+        "household_91": [],
+        "household_92": []
+    },
+    "timestep_300": {
+        "household_0": [],
+        "household_1": [],
+        "household_2": [],
+        "household_3": [
+            {
+                "age": 41,
+                "cbg": "401139400082",
+                "id": 6,
+                "sex": 0
+            }
+        ],
+        "household_4": [],
+        "household_5": [],
+        "household_6": [],
+        "household_7": [],
+        "household_8": [],
+        "household_9": [
+            {
+                "age": 48,
+                "cbg": "401139400082",
+                "id": 24,
+                "sex": 1
+            }
+        ],
+        "household_10": [
+            {
+                "age": 61,
+                "cbg": "401139400082",
+                "id": 25,
+                "sex": 0
+            }
+        ],
+        "household_11": [],
+        "household_12": [],
+        "household_13": [],
+        "household_14": [],
+        "household_15": [],
+        "household_16": [],
+        "household_17": [
+            {
+                "age": 13,
+                "cbg": "401139400082",
+                "id": 41,
+                "sex": 1
+            }
+        ],
+        "household_18": [],
+        "household_19": [],
+        "household_20": [],
+        "household_21": [],
+        "household_22": [
+            {
+                "age": 72,
+                "cbg": "401139400082",
+                "id": 52,
+                "sex": 1
+            }
+        ],
+        "household_23": [
+            {
+                "age": 67,
+                "cbg": "401139400082",
+                "id": 54,
+                "sex": 1
+            }
+        ],
+        "household_24": [
+            {
+                "age": 64,
+                "cbg": "401139400082",
+                "id": 56,
+                "sex": 1
+            }
+        ],
+        "household_25": [],
+        "household_26": [],
+        "household_27": [
+            {
+                "age": 36,
+                "cbg": "401139400082",
+                "id": 62,
+                "sex": 1
+            }
+        ],
+        "household_28": [],
+        "household_29": [],
+        "household_30": [],
+        "household_31": [],
+        "household_32": [],
+        "household_33": [],
+        "household_34": [
+            {
+                "age": 65,
+                "cbg": "401139400082",
+                "id": 82,
+                "sex": 1
+            }
+        ],
+        "household_35": [
+            {
+                "age": 15,
+                "cbg": "401139400082",
+                "id": 83,
+                "sex": 0
+            }
+        ],
+        "household_36": [],
+        "household_37": [],
+        "household_38": [],
+        "household_39": [],
+        "household_40": [
+            {
+                "age": 15,
+                "cbg": "401139400082",
+                "id": 93,
+                "sex": 0
+            }
+        ],
+        "household_41": [
+            {
+                "age": 21,
+                "cbg": "401139400082",
+                "id": 96,
+                "sex": 1
+            }
+        ],
+        "household_42": [],
+        "household_43": [
+            {
+                "age": 55,
+                "cbg": "401139400082",
+                "id": 99,
+                "sex": 0
+            }
+        ],
+        "household_44": [],
+        "household_45": [],
+        "household_46": [
+            {
+                "age": 64,
+                "cbg": "401139400082",
+                "id": 106,
+                "sex": 1
+            }
+        ],
+        "household_47": [],
+        "household_48": [],
+        "household_49": [],
+        "household_50": [],
+        "household_51": [],
+        "household_52": [],
+        "household_53": [],
+        "household_54": [],
+        "household_55": [],
+        "household_56": [],
+        "household_57": [],
+        "household_58": [],
+        "household_59": [
+            {
+                "age": 46,
+                "cbg": "401139400082",
+                "id": 132,
+                "sex": 1
+            }
+        ],
+        "household_60": [],
+        "household_61": [],
+        "household_62": [],
+        "household_63": [],
+        "household_64": [],
+        "household_65": [],
+        "household_66": [],
+        "household_67": [],
+        "household_68": [],
+        "household_69": [
+            {
+                "age": 73,
+                "cbg": "401139400082",
+                "id": 142,
+                "sex": 1
+            }
+        ],
+        "household_70": [],
+        "household_71": [],
+        "household_72": [],
+        "household_73": [],
+        "household_74": [],
+        "household_75": [],
+        "household_76": [],
+        "household_77": [
+            {
+                "age": 74,
+                "cbg": "401139400082",
+                "id": 150,
+                "sex": 0
+            }
+        ],
+        "household_78": [],
+        "household_79": [],
+        "household_80": [],
+        "household_81": [],
+        "household_82": [],
+        "household_83": [],
+        "household_84": [],
+        "household_85": [
+            {
+                "age": 30,
+                "cbg": "401139400082",
+                "id": 158,
+                "sex": 0
+            }
+        ],
+        "household_86": [
+            {
+                "age": 21,
+                "cbg": "401139400082",
+                "id": 159,
+                "sex": 0
+            }
+        ],
+        "household_87": [],
+        "household_88": [],
+        "household_89": [],
+        "household_90": [],
+        "household_91": [],
+        "household_92": []
+    },
+    "timestep_360": {
+        "household_0": [],
+        "household_1": [],
+        "household_2": [],
+        "household_3": [],
+        "household_4": [
+            {
+                "age": 18,
+                "cbg": "401139400082",
+                "id": 9,
+                "sex": 1
+            }
+        ],
+        "household_5": [],
+        "household_6": [
+            {
+                "age": 11,
+                "cbg": "401139400082",
+                "id": 14,
+                "sex": 0
+            }
+        ],
+        "household_7": [],
+        "household_8": [],
+        "household_9": [
+            {
+                "age": 49,
+                "cbg": "401139400082",
+                "id": 23,
+                "sex": 0
+            }
+        ],
+        "household_10": [],
+        "household_11": [],
+        "household_12": [],
+        "household_13": [],
+        "household_14": [],
+        "household_15": [
+            {
+                "age": 55,
+                "cbg": "401139400082",
+                "id": 36,
+                "sex": 1
+            }
+        ],
+        "household_16": [],
+        "household_17": [
+            {
+                "age": 13,
+                "cbg": "401139400082",
+                "id": 41,
+                "sex": 1
+            }
+        ],
+        "household_18": [],
+        "household_19": [],
+        "household_20": [],
+        "household_21": [],
+        "household_22": [],
+        "household_23": [],
+        "household_24": [
+            {
+                "age": 60,
+                "cbg": "401139400082",
+                "id": 55,
+                "sex": 0
+            }
+        ],
+        "household_25": [
+            {
+                "age": 58,
+                "cbg": "401139400082",
+                "id": 57,
+                "sex": 0
+            }
+        ],
+        "household_26": [],
+        "household_27": [],
+        "household_28": [],
+        "household_29": [],
+        "household_30": [],
+        "household_31": [],
+        "household_32": [],
+        "household_33": [],
+        "household_34": [
+            {
+                "age": 66,
+                "cbg": "401139400082",
+                "id": 81,
+                "sex": 0
+            }
+        ],
+        "household_35": [],
+        "household_36": [],
+        "household_37": [
+            {
+                "age": 27,
+                "cbg": "401139400082",
+                "id": 88,
+                "sex": 1
+            }
+        ],
+        "household_38": [],
+        "household_39": [
+            {
+                "age": 26,
+                "cbg": "401139400082",
+                "id": 92,
+                "sex": 1
+            }
+        ],
+        "household_40": [],
+        "household_41": [],
+        "household_42": [],
+        "household_43": [],
+        "household_44": [],
+        "household_45": [
+            {
+                "age": 74,
+                "cbg": "401139400082",
+                "id": 103,
+                "sex": 0
+            }
+        ],
+        "household_46": [],
+        "household_47": [
+            {
+                "age": 69,
+                "cbg": "401139400082",
+                "id": 108,
+                "sex": 1
+            }
+        ],
+        "household_48": [],
+        "household_49": [],
+        "household_50": [],
+        "household_51": [
+            {
+                "age": 37,
+                "cbg": "401139400082",
+                "id": 116,
+                "sex": 1
+            }
+        ],
+        "household_52": [],
+        "household_53": [],
+        "household_54": [],
+        "household_55": [],
+        "household_56": [
+            {
+                "age": 38,
+                "cbg": "401139400082",
+                "id": 126,
+                "sex": 0
+            }
+        ],
+        "household_57": [
+            {
+                "age": 69,
+                "cbg": "401139400082",
+                "id": 127,
+                "sex": 1
+            }
+        ],
+        "household_58": [],
+        "household_59": [],
+        "household_60": [],
+        "household_61": [],
+        "household_62": [],
+        "household_63": [],
+        "household_64": [],
+        "household_65": [
+            {
+                "age": 68,
+                "cbg": "401139400082",
+                "id": 138,
+                "sex": 1
+            }
+        ],
+        "household_66": [
+            {
+                "age": 27,
+                "cbg": "401139400082",
+                "id": 139,
+                "sex": 1
+            }
+        ],
+        "household_67": [],
+        "household_68": [],
+        "household_69": [],
+        "household_70": [],
+        "household_71": [],
+        "household_72": [],
+        "household_73": [],
+        "household_74": [],
+        "household_75": [],
+        "household_76": [],
+        "household_77": [],
+        "household_78": [],
+        "household_79": [],
+        "household_80": [],
+        "household_81": [],
+        "household_82": [],
+        "household_83": [],
+        "household_84": [],
+        "household_85": [
+            {
+                "age": 30,
+                "cbg": "401139400082",
+                "id": 158,
+                "sex": 0
+            }
+        ],
+        "household_86": [],
+        "household_87": [],
+        "household_88": [
+            {
+                "age": 17,
+                "cbg": "401139400082",
+                "id": 165,
+                "sex": 0
+            }
+        ],
+        "household_89": [],
+        "household_90": [],
+        "household_91": [],
+        "household_92": [
+            {
+                "age": 54,
+                "cbg": "401139400082",
+                "id": 174,
+                "sex": 0
+            }
+        ]
+    },
+    "timestep_420": {
+        "household_0": [],
+        "household_1": [],
+        "household_2": [],
+        "household_3": [],
+        "household_4": [],
+        "household_5": [],
+        "household_6": [],
+        "household_7": [],
+        "household_8": [],
+        "household_9": [],
+        "household_10": [],
+        "household_11": [],
+        "household_12": [
+            {
+                "age": 33,
+                "cbg": "401139400082",
+                "id": 29,
+                "sex": 0
+            }
+        ],
+        "household_13": [],
+        "household_14": [],
+        "household_15": [],
+        "household_16": [
+            {
+                "age": 23,
+                "cbg": "401139400082",
+                "id": 37,
+                "sex": 0
+            }
+        ],
+        "household_17": [
+            {
+                "age": 13,
+                "cbg": "401139400082",
+                "id": 41,
+                "sex": 1
+            }
+        ],
+        "household_18": [
+            {
+                "age": 46,
+                "cbg": "401139400082",
+                "id": 43,
+                "sex": 0
+            },
+            {
+                "age": 47,
+                "cbg": "401139400082",
+                "id": 44,
+                "sex": 1
+            }
+        ],
+        "household_19": [],
+        "household_20": [],
+        "household_21": [],
+        "household_22": [],
+        "household_23": [
+            {
+                "age": 69,
+                "cbg": "401139400082",
+                "id": 53,
+                "sex": 0
+            }
+        ],
+        "household_24": [],
+        "household_25": [],
+        "household_26": [],
+        "household_27": [
+            {
+                "age": 17,
+                "cbg": "401139400082",
+                "id": 63,
+                "sex": 1
+            },
+            {
+                "age": 11,
+                "cbg": "401139400082",
+                "id": 64,
+                "sex": 1
+            }
+        ],
+        "household_28": [
+            {
+                "age": 36,
+                "cbg": "401139400082",
+                "id": 65,
+                "sex": 0
+            },
+            {
+                "age": 14,
+                "cbg": "401139400082",
+                "id": 68,
+                "sex": 1
+            }
+        ],
+        "household_29": [],
+        "household_30": [],
+        "household_31": [],
+        "household_32": [],
+        "household_33": [],
+        "household_34": [],
+        "household_35": [],
+        "household_36": [],
+        "household_37": [],
+        "household_38": [],
+        "household_39": [],
+        "household_40": [],
+        "household_41": [],
+        "household_42": [],
+        "household_43": [],
+        "household_44": [],
+        "household_45": [],
+        "household_46": [],
+        "household_47": [],
+        "household_48": [],
+        "household_49": [],
+        "household_50": [],
+        "household_51": [],
+        "household_52": [],
+        "household_53": [],
+        "household_54": [],
+        "household_55": [],
+        "household_56": [
+            {
+                "age": 37,
+                "cbg": "401139400082",
+                "id": 125,
+                "sex": 1
+            }
+        ],
+        "household_57": [
+            {
+                "age": 69,
+                "cbg": "401139400082",
+                "id": 127,
+                "sex": 1
+            }
+        ],
+        "household_58": [],
+        "household_59": [],
+        "household_60": [],
+        "household_61": [],
+        "household_62": [],
+        "household_63": [],
+        "household_64": [],
+        "household_65": [
+            {
+                "age": 68,
+                "cbg": "401139400082",
+                "id": 138,
+                "sex": 1
+            }
+        ],
+        "household_66": [],
+        "household_67": [],
+        "household_68": [],
+        "household_69": [],
+        "household_70": [],
+        "household_71": [],
+        "household_72": [],
+        "household_73": [],
+        "household_74": [],
+        "household_75": [],
+        "household_76": [],
+        "household_77": [
+            {
+                "age": 74,
+                "cbg": "401139400082",
+                "id": 150,
+                "sex": 0
+            }
+        ],
+        "household_78": [],
+        "household_79": [
+            {
+                "age": 21,
+                "cbg": "401139400082",
+                "id": 152,
+                "sex": 0
+            }
+        ],
+        "household_80": [],
+        "household_81": [],
+        "household_82": [],
+        "household_83": [],
+        "household_84": [],
+        "household_85": [
+            {
+                "age": 30,
+                "cbg": "401139400082",
+                "id": 158,
+                "sex": 0
+            }
+        ],
+        "household_86": [],
+        "household_87": [],
+        "household_88": [],
+        "household_89": [],
+        "household_90": [
+            {
+                "age": 62,
+                "cbg": "401139400082",
+                "id": 168,
+                "sex": 0
+            }
+        ],
+        "household_91": [],
+        "household_92": []
+    },
+    "timestep_480": {
+        "household_0": [],
+        "household_1": [
+            {
+                "age": 61,
+                "cbg": "401139400082",
+                "id": 3,
+                "sex": 1
+            }
+        ],
+        "household_2": [],
+        "household_3": [],
+        "household_4": [],
+        "household_5": [],
+        "household_6": [],
+        "household_7": [
+            {
+                "age": 15,
+                "cbg": "401139400082",
+                "id": 19,
+                "sex": 0
+            }
+        ],
+        "household_8": [
+            {
+                "age": 19,
+                "cbg": "401139400082",
+                "id": 22,
+                "sex": 1
+            }
+        ],
+        "household_9": [],
+        "household_10": [
+            {
+                "age": 61,
+                "cbg": "401139400082",
+                "id": 25,
+                "sex": 0
+            }
+        ],
+        "household_11": [
+            {
+                "age": 67,
+                "cbg": "401139400082",
+                "id": 28,
+                "sex": 1
+            }
+        ],
+        "household_12": [],
+        "household_13": [],
+        "household_14": [
+            {
+                "age": 67,
+                "cbg": "401139400082",
+                "id": 33,
+                "sex": 0
+            }
+        ],
+        "household_15": [
+            {
+                "age": 55,
+                "cbg": "401139400082",
+                "id": 36,
+                "sex": 1
+            }
+        ],
+        "household_16": [],
+        "household_17": [],
+        "household_18": [],
+        "household_19": [],
+        "household_20": [],
+        "household_21": [],
+        "household_22": [],
+        "household_23": [],
+        "household_24": [
+            {
+                "age": 60,
+                "cbg": "401139400082",
+                "id": 55,
+                "sex": 0
+            }
+        ],
+        "household_25": [],
+        "household_26": [],
+        "household_27": [
+            {
+                "age": 17,
+                "cbg": "401139400082",
+                "id": 63,
+                "sex": 1
+            },
+            {
+                "age": 36,
+                "cbg": "401139400082",
+                "id": 62,
+                "sex": 1
+            }
+        ],
+        "household_28": [
+            {
+                "age": 14,
+                "cbg": "401139400082",
+                "id": 68,
+                "sex": 1
+            }
+        ],
+        "household_29": [],
+        "household_30": [
+            {
+                "age": 20,
+                "cbg": "401139400082",
+                "id": 72,
+                "sex": 1
+            }
+        ],
+        "household_31": [],
+        "household_32": [],
+        "household_33": [],
+        "household_34": [],
+        "household_35": [],
+        "household_36": [],
+        "household_37": [],
+        "household_38": [],
+        "household_39": [],
+        "household_40": [],
+        "household_41": [
+            {
+                "age": 21,
+                "cbg": "401139400082",
+                "id": 96,
+                "sex": 1
+            }
+        ],
+        "household_42": [],
+        "household_43": [
+            {
+                "age": 59,
+                "cbg": "401139400082",
+                "id": 100,
+                "sex": 1
+            }
+        ],
+        "household_44": [],
+        "household_45": [],
+        "household_46": [],
+        "household_47": [],
+        "household_48": [],
+        "household_49": [],
+        "household_50": [],
+        "household_51": [],
+        "household_52": [],
+        "household_53": [],
+        "household_54": [],
+        "household_55": [
+            {
+                "age": 48,
+                "cbg": "401139400082",
+                "id": 124,
+                "sex": 1
+            }
+        ],
+        "household_56": [],
+        "household_57": [
+            {
+                "age": 69,
+                "cbg": "401139400082",
+                "id": 127,
+                "sex": 1
+            }
+        ],
+        "household_58": [],
+        "household_59": [],
+        "household_60": [],
+        "household_61": [
+            {
+                "age": 58,
+                "cbg": "401139400082",
+                "id": 134,
+                "sex": 1
+            }
+        ],
+        "household_62": [
+            {
+                "age": 43,
+                "cbg": "401139400082",
+                "id": 135,
+                "sex": 1
+            }
+        ],
+        "household_63": [
+            {
+                "age": 38,
+                "cbg": "401139400082",
+                "id": 136,
+                "sex": 1
+            }
+        ],
+        "household_64": [],
+        "household_65": [],
+        "household_66": [],
+        "household_67": [],
+        "household_68": [],
+        "household_69": [],
+        "household_70": [],
+        "household_71": [],
+        "household_72": [],
+        "household_73": [],
+        "household_74": [],
+        "household_75": [],
+        "household_76": [],
+        "household_77": [
+            {
+                "age": 74,
+                "cbg": "401139400082",
+                "id": 150,
+                "sex": 0
+            }
+        ],
+        "household_78": [],
+        "household_79": [],
+        "household_80": [],
+        "household_81": [],
+        "household_82": [],
+        "household_83": [],
+        "household_84": [],
+        "household_85": [],
+        "household_86": [],
+        "household_87": [
+            {
+                "age": 15,
+                "cbg": "401139400082",
+                "id": 160,
+                "sex": 0
+            }
+        ],
+        "household_88": [],
+        "household_89": [
+            {
+                "age": 74,
+                "cbg": "401139400082",
+                "id": 167,
+                "sex": 0
+            }
+        ],
+        "household_90": [],
+        "household_91": [],
+        "household_92": []
+    },
+    "timestep_540": {
+        "household_0": [],
+        "household_1": [],
+        "household_2": [],
+        "household_3": [
+            {
+                "age": 41,
+                "cbg": "401139400082",
+                "id": 6,
+                "sex": 0
+            }
+        ],
+        "household_4": [],
+        "household_5": [
+            {
+                "age": 51,
+                "cbg": "401139400082",
+                "id": 11,
+                "sex": 1
+            },
+            {
+                "age": 45,
+                "cbg": "401139400082",
+                "id": 10,
+                "sex": 0
+            }
+        ],
+        "household_6": [
+            {
+                "age": 11,
+                "cbg": "401139400082",
+                "id": 14,
+                "sex": 0
+            }
+        ],
+        "household_7": [],
+        "household_8": [],
+        "household_9": [],
+        "household_10": [
+            {
+                "age": 57,
+                "cbg": "401139400082",
+                "id": 26,
+                "sex": 1
+            }
+        ],
+        "household_11": [],
+        "household_12": [
+            {
+                "age": 33,
+                "cbg": "401139400082",
+                "id": 30,
+                "sex": 1
+            }
+        ],
+        "household_13": [],
+        "household_14": [
+            {
+                "age": 67,
+                "cbg": "401139400082",
+                "id": 33,
+                "sex": 0
+            }
+        ],
+        "household_15": [
+            {
+                "age": 63,
+                "cbg": "401139400082",
+                "id": 35,
+                "sex": 0
+            },
+            {
+                "age": 55,
+                "cbg": "401139400082",
+                "id": 36,
+                "sex": 1
+            }
+        ],
+        "household_16": [],
+        "household_17": [],
+        "household_18": [],
+        "household_19": [],
+        "household_20": [],
+        "household_21": [],
+        "household_22": [],
+        "household_23": [],
+        "household_24": [
+            {
+                "age": 60,
+                "cbg": "401139400082",
+                "id": 55,
+                "sex": 0
+            }
+        ],
+        "household_25": [
+            {
+                "age": 58,
+                "cbg": "401139400082",
+                "id": 57,
+                "sex": 0
+            }
+        ],
+        "household_26": [],
+        "household_27": [],
+        "household_28": [],
+        "household_29": [],
+        "household_30": [],
+        "household_31": [],
+        "household_32": [],
+        "household_33": [
+            {
+                "age": 56,
+                "cbg": "401139400082",
+                "id": 79,
+                "sex": 0
+            }
+        ],
+        "household_34": [],
+        "household_35": [
+            {
+                "age": 15,
+                "cbg": "401139400082",
+                "id": 83,
+                "sex": 0
+            }
+        ],
+        "household_36": [],
+        "household_37": [],
+        "household_38": [],
+        "household_39": [],
+        "household_40": [
+            {
+                "age": 15,
+                "cbg": "401139400082",
+                "id": 93,
+                "sex": 0
+            },
+            {
+                "age": 16,
+                "cbg": "401139400082",
+                "id": 94,
+                "sex": 1
+            }
+        ],
+        "household_41": [],
+        "household_42": [],
+        "household_43": [],
+        "household_44": [],
+        "household_45": [],
+        "household_46": [
+            {
+                "age": 55,
+                "cbg": "401139400082",
+                "id": 105,
+                "sex": 0
+            }
+        ],
+        "household_47": [
+            {
+                "age": 69,
+                "cbg": "401139400082",
+                "id": 108,
+                "sex": 1
+            }
+        ],
+        "household_48": [],
+        "household_49": [],
+        "household_50": [],
+        "household_51": [],
+        "household_52": [
+            {
+                "age": 73,
+                "cbg": "401139400082",
+                "id": 117,
+                "sex": 0
+            }
+        ],
+        "household_53": [],
+        "household_54": [
+            {
+                "age": 43,
+                "cbg": "401139400082",
+                "id": 122,
+                "sex": 1
+            }
+        ],
+        "household_55": [],
+        "household_56": [
+            {
+                "age": 37,
+                "cbg": "401139400082",
+                "id": 125,
+                "sex": 1
+            }
+        ],
+        "household_57": [],
+        "household_58": [],
+        "household_59": [],
+        "household_60": [],
+        "household_61": [],
+        "household_62": [],
+        "household_63": [],
+        "household_64": [],
+        "household_65": [],
+        "household_66": [],
+        "household_67": [],
+        "household_68": [],
+        "household_69": [],
+        "household_70": [],
+        "household_71": [],
+        "household_72": [],
+        "household_73": [],
+        "household_74": [],
+        "household_75": [],
+        "household_76": [],
+        "household_77": [],
+        "household_78": [
+            {
+                "age": 29,
+                "cbg": "401139400082",
+                "id": 151,
+                "sex": 0
+            }
+        ],
+        "household_79": [
+            {
+                "age": 21,
+                "cbg": "401139400082",
+                "id": 152,
+                "sex": 0
+            }
+        ],
+        "household_80": [
+            {
+                "age": 55,
+                "cbg": "401139400082",
+                "id": 153,
+                "sex": 0
+            }
+        ],
+        "household_81": [],
+        "household_82": [],
+        "household_83": [],
+        "household_84": [],
+        "household_85": [],
+        "household_86": [],
+        "household_87": [],
+        "household_88": [],
+        "household_89": [],
+        "household_90": [],
+        "household_91": [],
+        "household_92": []
+    },
+    "timestep_600": {
+        "household_0": [],
+        "household_1": [],
+        "household_2": [],
+        "household_3": [],
+        "household_4": [],
+        "household_5": [
+            {
+                "age": 45,
+                "cbg": "401139400082",
+                "id": 10,
+                "sex": 0
+            }
+        ],
+        "household_6": [],
+        "household_7": [
+            {
+                "age": 15,
+                "cbg": "401139400082",
+                "id": 19,
+                "sex": 0
+            },
+            {
+                "age": 30,
+                "cbg": "401139400082",
+                "id": 18,
+                "sex": 1
+            }
+        ],
+        "household_8": [],
+        "household_9": [],
+        "household_10": [
+            {
+                "age": 61,
+                "cbg": "401139400082",
+                "id": 25,
+                "sex": 0
+            }
+        ],
+        "household_11": [],
+        "household_12": [],
+        "household_13": [],
+        "household_14": [],
+        "household_15": [],
+        "household_16": [],
+        "household_17": [],
+        "household_18": [],
+        "household_19": [],
+        "household_20": [],
+        "household_21": [],
+        "household_22": [],
+        "household_23": [],
+        "household_24": [],
+        "household_25": [],
+        "household_26": [],
+        "household_27": [
+            {
+                "age": 36,
+                "cbg": "401139400082",
+                "id": 62,
+                "sex": 1
+            }
+        ],
+        "household_28": [],
+        "household_29": [],
+        "household_30": [
+            {
+                "age": 20,
+                "cbg": "401139400082",
+                "id": 72,
+                "sex": 1
+            }
+        ],
+        "household_31": [
+            {
+                "age": 21,
+                "cbg": "401139400082",
+                "id": 73,
+                "sex": 0
+            },
+            {
+                "age": 17,
+                "cbg": "401139400082",
+                "id": 74,
+                "sex": 1
+            }
+        ],
+        "household_32": [
+            {
+                "age": 6,
+                "cbg": "401139400082",
+                "id": 77,
+                "sex": 1
+            }
+        ],
+        "household_33": [],
+        "household_34": [
+            {
+                "age": 65,
+                "cbg": "401139400082",
+                "id": 82,
+                "sex": 1
+            }
+        ],
+        "household_35": [],
+        "household_36": [],
+        "household_37": [
+            {
+                "age": 27,
+                "cbg": "401139400082",
+                "id": 88,
+                "sex": 1
+            }
+        ],
+        "household_38": [],
+        "household_39": [],
+        "household_40": [],
+        "household_41": [],
+        "household_42": [],
+        "household_43": [],
+        "household_44": [],
+        "household_45": [],
+        "household_46": [],
+        "household_47": [],
+        "household_48": [],
+        "household_49": [],
+        "household_50": [],
+        "household_51": [],
+        "household_52": [],
+        "household_53": [],
+        "household_54": [
+            {
+                "age": 37,
+                "cbg": "401139400082",
+                "id": 121,
+                "sex": 1
+            }
+        ],
+        "household_55": [],
+        "household_56": [],
+        "household_57": [
+            {
+                "age": 66,
+                "cbg": "401139400082",
+                "id": 128,
+                "sex": 1
+            }
+        ],
+        "household_58": [],
+        "household_59": [],
+        "household_60": [],
+        "household_61": [],
+        "household_62": [
+            {
+                "age": 43,
+                "cbg": "401139400082",
+                "id": 135,
+                "sex": 1
+            }
+        ],
+        "household_63": [],
+        "household_64": [],
+        "household_65": [],
+        "household_66": [],
+        "household_67": [],
+        "household_68": [],
+        "household_69": [],
+        "household_70": [],
+        "household_71": [],
+        "household_72": [],
+        "household_73": [],
+        "household_74": [],
+        "household_75": [],
+        "household_76": [],
+        "household_77": [],
+        "household_78": [],
+        "household_79": [
+            {
+                "age": 21,
+                "cbg": "401139400082",
+                "id": 152,
+                "sex": 0
+            }
+        ],
+        "household_80": [],
+        "household_81": [
+            {
+                "age": 32,
+                "cbg": "401139400082",
+                "id": 154,
+                "sex": 0
+            }
+        ],
+        "household_82": [],
+        "household_83": [],
+        "household_84": [],
+        "household_85": [],
+        "household_86": [],
+        "household_87": [
+            {
+                "age": 16,
+                "cbg": "401139400082",
+                "id": 161,
+                "sex": 1
+            }
+        ],
+        "household_88": [
+            {
+                "age": 17,
+                "cbg": "401139400082",
+                "id": 165,
+                "sex": 0
+            }
+        ],
+        "household_89": [],
+        "household_90": [
+            {
+                "age": 62,
+                "cbg": "401139400082",
+                "id": 170,
+                "sex": 0
+            }
+        ],
+        "household_91": [],
+        "household_92": [
+            {
+                "age": 51,
+                "cbg": "401139400082",
+                "id": 173,
+                "sex": 0
+            }
+        ]
+    }
+}

@@ -197,6 +197,9 @@ def simulation(settings, city_info, hh_info):
     poi_dict = get_info(city_info)
     hh_dict = get_hh_info(hh_info)
 
+    hh_return_dict = {}
+    poi_return_dict = {}
+
     popularity_matrix = get_popularity_matrix(poi_dict)
 
     for i in range(settings['time']):
@@ -253,41 +256,45 @@ def simulation(settings, city_info, hh_info):
         # Print info!
         old_out = sys.stdout
         if time % 60 == 0.0:
-            with open("result_hh.json", "a+") as hhstream, \
-                    open("result_poi.json", "a+") as poistream:
                 
-                count = 0
-                poi_count = 0
+            count = 0
+            poi_count = 0
 
-                hh_ret = {}
-                for hh, pop in hh_dict.items():
-                    pop_list = []
-                    new_pop = pop.population.copy()
-                    for person in new_pop:
-                        person_list = vars(person).copy()
-                        person_list.pop('household')
-                        pop_list.append(person_list)
-                    hh_ret[f"household_{count}"] = pop_list
-                    count += 1
+            hh_ret = {}
+            for hh, pop in hh_dict.items():
+                pop_list = []
+                new_pop = pop.population.copy()
+                for person in new_pop:
+                    person_list = vars(person).copy()
+                    person_list.pop('household')
+                    pop_list.append(person_list)
+                hh_ret[f"household_{count}"] = pop_list
+                count += 1
 
-                json.dump({f'timestep_{time}': hh_ret}, hhstream)
+            hh_return_dict[f'timestep_{time}'] =  hh_ret
+            
+
+            poi_ret = {}
+            for poi, cur_poi in poi_dict.items():
+                pop_list_poi = []
+                new_pop_poi = list(cur_poi.current_people.copy())
+                for spot in new_pop_poi:
+                    spot_list = []
+                    for person in spot:
+                        person_list_poi = vars(person).copy()
+                        person_list_poi.pop('household')
+                        spot_list.append(person_list_poi)
+                    pop_list_poi.append(spot_list)
                 
+                poi_ret[f"id_{poi_count}_{cur_poi.name}"] = pop_list_poi
 
-                poi_ret = {}
-                for poi, cur_poi in poi_dict.items():
-                    pop_list_poi = []
-                    new_pop_poi = list(cur_poi.current_people.copy())
-                    for spot in new_pop_poi:
-                        spot_list = []
-                        for person in spot:
-                            person_list_poi = vars(person).copy()
-                            person_list_poi.pop('household')
-                            spot_list.append(person_list_poi)
-                        pop_list_poi.append(spot_list)
-                    
-                    poi_ret[f"id_{poi_count}_{cur_poi.name}"] = pop_list_poi
+            poi_return_dict[f'timestep_{time}'] = poi_ret
 
-                json.dump({f'timestep_{time}': poi_ret}, poistream)
+    with open("result_hh.json", "w+") as hhstream:
+        json.dump(hh_return_dict, hhstream)
+    
+    with open("result_poi.json", "w+") as poistream:
+        json.dump(poi_return_dict, poistream)
 
 
 
