@@ -80,22 +80,22 @@ if __name__=="__main__":
         '''
         married, opposite_sex, samesex, female_single, male_single, other = 0, 1, 2, 3, 4, 5
         
-        for i in range(int(households * pop_data['family_percents'][married] * 0.01)):
+        for i in range(int(households * pop_data['family_percents'][married] / 100)):
             result.append(create_married_hh(pop_data, cbg))
 
-        for i in range(int(households * pop_data['family_percents'][samesex] * 0.01)):
+        for i in range(int(households * pop_data['family_percents'][samesex] / 100)):
             result.append(create_samesex_hh(pop_data, cbg))
 
-        for i in range(int(households * pop_data['family_percents'][opposite_sex] * 0.01)):
+        for i in range(int(households * pop_data['family_percents'][opposite_sex] / 100)):
             result.append(create_oppositesex_hh(pop_data, cbg))
 
-        for i in range(int(households * pop_data['family_percents'][female_single] * 0.01)):
+        for i in range(int(households * pop_data['family_percents'][female_single] / 100)):
             result.append(create_femsingle_hh(pop_data, cbg))
 
-        for i in range(int(households * pop_data['family_percents'][male_single] * 0.01)):
+        for i in range(int(households * pop_data['family_percents'][male_single] / 100)):
             result.append(create_malesingle_hh(pop_data, cbg))
         
-        for i in range(int(households * pop_data['family_percents'][other] * 0.01)):
+        for i in range(int(households * pop_data['family_percents'][other] / 100)):
             result.append(create_other_hh(pop_data, cbg))
 
         return result     
