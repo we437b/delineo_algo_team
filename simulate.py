@@ -8,6 +8,29 @@ from household import Household, Person, Population
 import sys
 
 
+class Household():
+
+    ''' 
+    Household class, inheriting Population since its a small population
+    '''
+
+    def __init__(self, cbg, total_count=0, population=[]):
+        self.total_count = total_count
+        self.population = population
+        self.cbg = cbg
+
+
+    def add_member(self, person):
+        '''
+        Adds member to the household, with sanity rules applied
+        @param person = person to be added to household
+        '''
+        self.population.append(person)
+
+    #TODO: Add more functions for leaving/coming back, etc if needed
+    #jiwoo: an idea would be to extend from the population info to create
+    #more realistic dataset (combination) of population in a household
+
 class POI():
 
     def __init__(self, name, visit, bucket, same_day, pop_hr, pop_day):  # time_step field?
@@ -172,8 +195,7 @@ def get_info(city_info):
 def get_hh_info(hh_info):
 
     hh_dict = {}
-
-    for hh_id in hh_info[0]:
+    for hh_id in hh_info:
         hh_dict[hh_id] = hh_id
 
     return hh_dict
@@ -221,7 +243,7 @@ def simulation(settings, city_info, hh_info):
                         'household': obj.household,
                     }
                 return tuple(obj)
-            
+
         class HouseholdEncoder(json.JSONEncoder):
             def default(self, obj):
                 if isinstance(obj, Household):
@@ -255,8 +277,8 @@ def simulation(settings, city_info, hh_info):
 
         # Print info!
         old_out = sys.stdout
-        if time % 60 == 0.0:
-                
+        if time % 60 == 0.0 or time == 0:
+
             count = 1
             poi_count = 1
 
@@ -271,8 +293,7 @@ def simulation(settings, city_info, hh_info):
                 hh_ret[f"household_{count}"] = pop_list
                 count += 1
 
-            hh_return_dict[f'timestep_{time}'] =  hh_ret
-            
+            hh_return_dict[f'timestep_{time}'] = hh_ret
 
             poi_ret = {}
             for poi, cur_poi in poi_dict.items():
@@ -285,18 +306,16 @@ def simulation(settings, city_info, hh_info):
                         person_list_poi.pop('household')
                         spot_list.append(person_list_poi)
                     pop_list_poi.append(spot_list)
-                
+
                 poi_ret[f"id_{poi_count}_{cur_poi.name}"] = pop_list_poi
                 poi_count += 1
             poi_return_dict[f'timestep_{time}'] = poi_ret
 
     with open("result_hh.json", "w+") as hhstream:
         json.dump(hh_return_dict, hhstream)
-    
+
     with open("result_poi.json", "w+") as poistream:
         json.dump(poi_return_dict, poistream)
-
-
 
 
 if __name__ == "__main__":
@@ -309,7 +328,28 @@ if __name__ == "__main__":
     with open('barnsdall.yaml') as citystream:
         city_info = yaml.full_load(citystream)
 
-    with open('households.yaml') as hhstream:
-        hh_info = yaml.unsafe_load(hhstream)
+    # Define a custom constructor for loading Person objects
+    def person_constructor(loader, node):
+        fields = loader.construct_mapping(node)
+        return Person(**fields)
+
+    # Define a custom constructor for loading Household objects
+    def household_constructor(loader, node):
+        fields = loader.construct_mapping(node)
+        return Household(**fields)
+
+    yaml.SafeLoader.add_constructor('tag:yaml.org,2002:python/object:__main__.Person', person_constructor)
+    yaml.SafeLoader.add_constructor('tag:yaml.org,2002:python/object:__main__.Household', household_constructor)
+
+    with open('households.yaml', 'r') as hhstream:
+        hh_info_pre = yaml.load(hhstream, Loader=yaml.SafeLoader)
+    
+    hh_info = []
+
+    for list_hh in hh_info_pre:
+        for hh in list_hh:
+            hh_info.append(hh)
+
+    print(len(hh_info))
 
     simulation(settings, city_info, hh_info)
