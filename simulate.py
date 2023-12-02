@@ -206,8 +206,6 @@ def get_hh_info(hh_info):
         cur_poi = POI(id, visit, bucket, same_day, pop_hr, pop_day)
         hh_dict[id] = cur_poi
 
-        print(cur_poi)
-        print(hh_dict[id])
         id = id + 1
 
     return hh_dict
@@ -232,8 +230,8 @@ def simulation(settings, city_info, hh_info):
     hh_dict = get_hh_info(hh_info)
 
     # print(hh_dict)
-    for key, value in hh_dict.items():
-        print(f"Key: {key}, Value: {value}")
+    # for key, value in hh_dict.items():
+    #     print(f"Key: {key}, Value: {value}")
 
     hh_return_dict = {}
     poi_return_dict = {}
