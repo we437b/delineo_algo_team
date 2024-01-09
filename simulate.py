@@ -142,9 +142,9 @@ def timestep(poi_dict, hh_dict, popularity_matrix):
     '''
         Releasing people from households TODO: categorize people
     '''
-
     for hh in hh_dict.keys():
         cur_hh = hh_dict[hh]
+        
         for person in cur_hh.population:
             # TODO 집에서 나갈 확률
             if random.choices([True, False], [1, 10])[0]:
@@ -195,18 +195,10 @@ def get_info(city_info):
 def get_hh_info(hh_info):
 
     hh_dict = {}
-    id = 0
     for hh_id in hh_info:
-        visit = None
-        bucket = "[]"
-        same_day = None
-        pop_hr = None
-        pop_day = None
+        hh_dict[hh_id] = hh_id
+        # print(hh_id)
 
-        cur_poi = POI(id, visit, bucket, same_day, pop_hr, pop_day)
-        hh_dict[id] = cur_poi
-
-        id = id + 1
 
     return hh_dict
 
@@ -255,8 +247,9 @@ def simulation(settings, city_info, hh_info):
                         'age': obj.age,
                         'cbg': obj.cbg,
                         'household': obj.household,
+                        'hh_id': obj.hh_id,
                     }
-                return tuple(obj)
+                return super().default(obj)
 
         class HouseholdEncoder(json.JSONEncoder):
             def default(self, obj):
@@ -273,7 +266,9 @@ def simulation(settings, city_info, hh_info):
                         'sex': obj.sex,
                         'age': obj.age,
                         'cbg': obj.cbg,
-                        'household': obj.household.cbg
+                        'household': obj.household,
+                        'hh_id': obj.hh_id,
+
                     }
                 return super().default(obj)
 
@@ -304,6 +299,7 @@ def simulation(settings, city_info, hh_info):
                     person_list = vars(person).copy()
                     person_list.pop('household')
                     pop_list.append(person_list)
+                    # print(pop_list)
                 hh_ret[f"household_{count}"] = pop_list
                 count += 1
 
@@ -364,6 +360,6 @@ if __name__ == "__main__":
         for hh in list_hh:
             hh_info.append(hh)
 
-    print(len(hh_info))
+    # print(hh_info)
 
     simulation(settings, city_info, hh_info)
