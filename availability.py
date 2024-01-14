@@ -11,14 +11,13 @@ with open('simul_settings.yaml', mode="r") as settingstream:
     settings = yaml.full_load(settingstream)
 
 time_range = settings['time']
-import csv
-import numpy as np
-
-# Assuming you already have 'data'
 
 # Initialize sets to store unique person IDs and timestamps
 person_ids = set()
 timestamps = set()
+
+# Initialize max_person_id
+max_person_id = 0
 
 # Extract unique person IDs and timestamps
 for timestamp_key, poi_data in data.items():
@@ -26,31 +25,45 @@ for timestamp_key, poi_data in data.items():
     timestamps.add(timestamp_idx)
 
     for location_key, timestamp_list in poi_data.items():
-        print(location_key)
-        print(timestamp_list)
         for person_list in timestamp_list:
             for person in person_list:
-                print(person)
-                person_ids.add(person['id'])
+                person_id = person['id']
+                person_ids.add(person_id)
+
+                if person_id > max_person_id:
+                    max_person_id = person_id
 
 # Convert sets to sorted lists
 sorted_person_ids = sorted(list(person_ids))
 sorted_timestamps = sorted(list(timestamps))
 
 # Create a 2D array
-result_array = np.zeros((len(sorted_person_ids), len(sorted_timestamps)), dtype=int)
+result_array = np.zeros((max_person_id + 1, len(sorted_timestamps)), dtype=int)
+print(len(sorted_person_ids))
 
-# Fill the array with data
-for i, person_id in enumerate(sorted_person_ids):
-    for j, timestamp_idx in enumerate(sorted_timestamps):
-        poi_key = f"id_{timestamp_idx}_Barnsdall Hs"
-        timestamps_list = data.get(poi_key, [])
-        for timestamp in timestamps_list:
-            for person_list in timestamp:
-                for person in person_list:
-                    if person.get('id') == person_id:
-                        result_array[i, j] = 1  # Person is at the location
-                        break
+
+
+for timestamp_key, poi_data in data.items():
+    timestamp_idx = int(timestamp_key.split('_')[1])  # Extract the timestamp index from the key
+
+    for location_key, timestamp_list in poi_data.items():
+        for person_list in timestamp_list:
+            for person in person_list:
+                person_ids.add(person['id'])
+                result_array[person['id'] - 1, int(timestamp_idx/60) - 1] = 1 
+
+for person_id in range(result_array.shape[0]):
+    row = result_array[person_id, :]
+    
+    # Find indices where 1 appears
+    ones_indices = np.where(row == 1)[0]
+
+    # Calculate consecutive zeros
+    consecutive_zeros = np.diff(ones_indices) - 1
+
+    # Set the value in the result_array to the number of consecutive zeros
+    result_array[person_id, ones_indices[:-1]] = consecutive_zeros
+
 
 # Create a CSV file
 csv_file_path = 'result_matrix.csv'
